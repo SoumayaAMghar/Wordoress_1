@@ -1,0 +1,167 @@
+/*****************************************/
+/* Click to Tweet
+/*****************************************/
+.dpsp-click-to-tweet {
+  display: block;
+  position: relative;
+  margin: 1.5em 0;
+  box-shadow: none !important;
+  font-size: 105%;
+  text-decoration: none;
+  transition: all 0.15s ease-in;
+}
+
+.dpsp-click-to-tweet:hover {
+  box-shadow: none !important;
+}
+
+.dpsp-click-to-tweet.dpsp-has-avatar {
+  min-height: 115px;
+  padding-left: 120px !important;
+}
+
+.dpsp-click-to-tweet.dpsp-has-avatar .avatar {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  border-radius: 50%;
+  box-shadow: none !important;
+}
+
+.dpsp-click-to-tweet:after,
+.dpsp-click-to-tweet-footer:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.dpsp-click-to-tweet-content {
+  display: block;
+  position: relative;
+  font-family: 'Georgia';
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left; 
+  z-index: 2;
+}
+
+.dpsp-click-to-tweet-footer {
+  display: block;
+  margin-top: 1em;
+  color: #999;
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Call to Action with Icon */
+.dpsp-click-to-tweet.dpsp-click-to-tweet-cta-left .dpsp-click-to-tweet-cta {
+  float: left;
+}
+.dpsp-click-to-tweet.dpsp-click-to-tweet-cta-right .dpsp-click-to-tweet-cta {
+  float: right;
+}
+
+.dpsp-click-to-tweet-cta {
+  color: #00abf0;
+  line-height: 1;
+}
+.dpsp-click-to-tweet-cta svg {
+  fill: #00abf0;
+}
+.dpsp-click-to-tweet-cta .dpsp-twitter {
+  display: inline-block;
+  vertical-align: middle;
+}
+.dpsp-click-to-tweet-cta > span {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.dpsp-click-to-tweet:hover .dpsp-twitter .dpsp-network-icon-inner {
+  transition: all 0.2s ease-in-out;
+}
+.dpsp-click-to-tweet.dpsp-click-to-tweet-cta-icon-animation:hover .dpsp-click-to-tweet-cta .dpsp-twitter .dpsp-network-icon-after {
+  margin-left: -10px;
+  opacity: 1;
+}
+.dpsp-click-to-tweet.dpsp-click-to-tweet-cta-icon-animation:hover .dpsp-click-to-tweet-cta .dpsp-twitter .dpsp-network-icon-before {
+  margin-left: 10px;
+  opacity: 0;
+}
+
+
+/* Click to Tweet Style 1 */
+a.dpsp-click-to-tweet.dpsp-style-1 {
+  padding: 15px 5px 5px 30px;
+  border: 0;
+  border-left: 5px solid #00abf0;
+  color: #555;
+}
+a.dpsp-click-to-tweet.dpsp-style-1:hover {
+  border-left: 5px solid #0099d7;
+}
+
+/* Click to Tweet Style 2 */
+a.dpsp-click-to-tweet.dpsp-style-2 {
+  padding: 20px 30px 20px 30px;
+  border: 0;
+  border-left: 5px solid #00abf0;
+  color: #555;
+  background: #f6f6f6;
+}
+a.dpsp-click-to-tweet.dpsp-style-2:hover {
+  border-left: 5px solid #0099d7;
+}
+
+/* Click to Tweet Style 3 */
+a.dpsp-click-to-tweet.dpsp-style-3 {
+  padding: 20px 30px 20px 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  color: #838383;
+}
+a.dpsp-click-to-tweet.dpsp-style-3:hover {
+  color: #555;
+}
+
+/* Click to Tweet Style 4 */
+a.dpsp-click-to-tweet.dpsp-style-4 {
+  padding: 20px 30px 20px 30px;
+  border: 4px double #e1e1e1;
+  border-radius: 0;
+  color: #838383;
+}
+a.dpsp-click-to-tweet.dpsp-style-4:hover {
+  color: #555;
+}
+
+/* Click to Tweet Style 5 */
+a.dpsp-click-to-tweet.dpsp-style-5 {
+  padding: 20px 30px 20px 30px;
+  border: 0;
+  border-left: 0 solid transparent;
+  border-radius: 3px;
+  color: #fff;
+  background: #00abf0;
+  transition: border 0.2s ease-in-out;
+}
+a.dpsp-click-to-tweet.dpsp-style-5 .dpsp-click-to-tweet-cta {
+  color: #fff;
+}
+a.dpsp-click-to-tweet.dpsp-style-5 .dpsp-click-to-tweet-cta svg {
+  fill: #fff;
+}
+a.dpsp-click-to-tweet.dpsp-style-5:hover {
+  border-left: 9px solid #0099d7;
+  color: #fff;
+}
+a.dpsp-click-to-tweet.dpsp-style-5 .dpsp-click-to-tweet-content,
+a.dpsp-click-to-tweet.dpsp-style-5 .dpsp-click-to-tweet-footer,
+a.dpsp-click-to-tweet.dpsp-style-5 > img {
+  transition: margin-left 0.2s ease-in-out;
+}
+a.dpsp-click-to-tweet.dpsp-style-5:hover .dpsp-click-to-tweet-content,
+a.dpsp-click-to-tweet.dpsp-style-5:hover .dpsp-click-to-tweet-footer,
+a.dpsp-click-to-tweet.dpsp-style-5:hover > img {
+  margin-left: -9px;
+}

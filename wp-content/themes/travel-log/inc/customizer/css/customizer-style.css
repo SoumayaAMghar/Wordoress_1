@@ -1,0 +1,25 @@
+/**
+ * Customizer Styles
+ */
+
+#input_travel_log_optionstravel_log_layout input {
+    display: none;
+}
+
+#input_travel_log_optionstravel_log_layout label {
+    width: 30%;
+    display: inline-block;
+}
+
+#input_travel_log_optionstravel_log_layout img {
+    opacity: 0.5;
+}
+
+#input_travel_log_optionstravel_log_layout img.travel-log-radio-img-selected {
+    opacity: 1;
+}
+
+#input_travel_log_optionstravel_log_layout input:checked+label img {
+    display: block;
+    opacity: 1;
+}

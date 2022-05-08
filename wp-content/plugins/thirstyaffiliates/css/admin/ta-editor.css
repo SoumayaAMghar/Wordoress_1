@@ -1,0 +1,47 @@
+.mce-container div.wp-thirstylink-input {
+    float: left;
+    margin: 2px;
+    max-width: 694px;
+    position: relative;
+}
+
+.mce-container div.wp-thirstylink-input input {
+    width: 300px;
+    padding: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+.mce-container div.wp-thirstylink-input .affiliate-link-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 150px;
+    overflow: auto;
+    border: 1px solid #eee;
+    background: #fff;
+}
+.mce-container div.wp-thirstylink-input .affiliate-link-list li {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+.mce-container div.wp-thirstylink-input .affiliate-link-list li:hover {
+    background: #eee;
+}
+.mce-container div.wp-thirstylink-input .affiliate-link-list li * {
+    font-size: 13px;
+}
+.mce-container div.wp-thirstylink-input .affiliate-link-list li:last-child {
+    border-bottom: 0;
+}
+.shortcode-preview-toolbar div.shortcode-preview {
+    display:inline-block;
+    padding: 6px 8px;
+    color: #3ca99c;
+}
+.shortcode-preview-toolbar .mce-btn-group {
+    border: 0 !important;
+    padding: 0 !important;
+}

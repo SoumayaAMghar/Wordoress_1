@@ -1,0 +1,174 @@
+.results-panel {
+    border: 1px solid #ded9d9;
+    background: #fff;
+    margin-top: 10px;
+
+    ul.results-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+        li {
+            padding: 8px 12px;
+            border-bottom: 1px solid #ded9d9;
+
+            &.spinner {
+                text-align: center;
+                padding-top: 4px;
+
+                i {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    position: relative;
+                    top: 4px;
+                    margin-right: 5px;
+                }
+                span {
+                    display: inline-block;
+                }
+            }
+
+            &:after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+
+            &:hover {
+                background: #f3f3f3;
+            }
+
+            &.no-links-found {
+                text-align: center;
+                display: block;
+            }
+
+            .slug {
+                font-size: 13px;
+                color: #aaa;
+            }
+
+            .actions {
+                float: right;
+
+                .button {
+                    background: #fafafa;
+                    border: 1px solid #ccc;
+                    border-radius: 3px;
+                    font-size: 13px;
+                    width: 26px;
+                    cursor: pointer;
+                    color: #333;
+                    padding: 3px 5px;
+                    height: auto;
+                    margin-left: 5px;
+
+                    &:focus {
+                        background: #eee;
+                    }
+                }
+            }
+
+            .images-block {
+                display: none;
+                margin-top: 8px;
+                padding-top: 5px;
+                border-top: 1px dashed #e8e8e8;
+                overflow-y: hidden;
+                transition-property: all;
+            	transition-duration: .5s;
+            	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+                &.show {
+                    display: block !important;
+                }
+                &:after {
+                    content : '';
+                    display: table;
+                    clear: both;
+                }
+
+                .label {
+                    display: block;
+                    float: left;
+                    position: relative;
+                    top: 25px;
+                    margin-right: 10px;
+                }
+
+                .images {
+                    display: block;
+                    float: left;
+
+                    .image {
+                        display: inline-block;
+                        width: 75px;
+                        overflow: hidden;
+                        margin-right: 7px;
+                        border: 1px solid #ececec;
+                        cursor: pointer;
+
+                        img {
+                            width: auto;
+                            height: 75px;
+                        }
+
+                        &:hover {
+                            border-color: #c1c1c1;
+                        }
+                    }
+
+                    
+                }
+
+                .no-images {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    a.load-more-results {
+        display: block;
+        color: #444;
+        padding: 8px;
+        text-align: center;
+        text-decoration: none;
+
+        &:hover {
+            background: #006799;
+            color: #fff;
+        }
+
+        &.fetching {
+            cursor: default;
+
+            &:hover {
+                background: inherit;
+                color: inherit;
+            }
+        }
+
+        .spinner {
+            display: none;
+
+            i {
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 4px;
+            }
+        }
+
+        .button-text {
+            display: inline-block;
+
+            i {
+                display: inline-block;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+*** Vision Interactive for WordPress Changelog ***
+
+= 1.5.1 =
+ * Fix: layer triggers 'hover' & 'focus'
+
+= 1.5.0 =
+ * New: 'nofollow' attribute for the layer link type
+
+= 1.4.4 =
+ * New: shortcode attribute 'slug'
+ * Mod: frontend API
+
+= 1.4.3 =
+ * Fix: website under HTTPS (secured with SSL certificate), but scene images are under HTTP (unsecured)
+ * New: search item box, trash support
+ * New: support Emoji
+
+= 1.4.2 =
+ * New: auto width & height options
+ * New: the layer content data can be edited
+
+= 1.4.1 =
+ * Fix: text layer type was not displayed
+
+= 1.4.0 =
+ * Fix: loader is called only once on a page
+ * New: edit roles with access to the plugin
+ * Mod: items pagination view
+
+= 1.3.0 =
+ * New: improved user interface
+ * New: changed markup for frontend
+
+= 1.2.3 =
+ * Fix: cannot edit item due json parse error with double quotes
+
+= 1.2.2 =
+ * Fix: links do not work on firefox
+
+= 1.2.1 =
+ * Fix: tooltips do not show up sometimes
+
+= 1.2.0 =
+ * New: users have access to items, depending on their privileges and roles
+ * Fix: popover inbox flickering on hover
+ * Fix: markup template for inbox & lightbox popover
+
+= 1.1.1 =
+ * New: item last modified date in the config
+
+= 1.1.0 =
+ * Fix: updated custom code editor (Ctrl + F)
+ * New: can set an url for each layer
+ * New: can set a userData for each layer
+ * New: preview mode
+ * New: color picker
+
+= 1.0.2 =
+ * Fix: can't save a big config
+ 
+= 1.0.1 =
+ * New: next & prev layer navigation
+ * Fix: light theme
+
+= 1.0.0 =
+ * Initial release

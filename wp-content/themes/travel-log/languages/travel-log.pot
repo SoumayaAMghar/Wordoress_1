@@ -1,0 +1,1308 @@
+# <!=Copyright (C) 2022 WEN Solutions
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Log 1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-03 04:14:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WEN Solutions <info@wensolutions.com>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../travel-log\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: 404.php:24
+msgid "Try a search again ?"
+msgstr ""
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:91
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:59
+msgid "Top Left Links"
+msgstr ""
+
+#: functions.php:60
+msgid "Social Links"
+msgstr ""
+
+#: functions.php:61
+msgid "Primary"
+msgstr ""
+
+#: functions.php:62
+msgid "Footer"
+msgstr ""
+
+#: header.php:60
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/admin.php:20 inc/admin/admin.php:21
+msgid " Info"
+msgstr ""
+
+#: inc/admin/admin.php:247
+msgid "Welcome to"
+msgstr ""
+
+#: inc/admin/admin.php:247 inc/tgm-plugin/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/admin/admin.php:258
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/admin.php:259
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/admin/admin.php:260
+msgid "Compatible Plugins"
+msgstr ""
+
+#: inc/admin/admin.php:261
+msgid "Support"
+msgstr ""
+
+#: inc/admin/admin.php:268 inc/admin/admin.php:273
+msgid "Recommended actions"
+msgstr ""
+
+#: inc/admin/admin.php:270
+msgid ""
+"We have compiled a list of steps for you to take so we can ensure that the "
+"experience you have using one of our products is very easy to follow."
+msgstr ""
+
+#: inc/admin/admin.php:280 inc/customizer/theme-options.php:15
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/admin.php:283
+msgid ""
+"We have used Customizer API for theme options which will help you preview "
+"your changes live and fast."
+msgstr ""
+
+#: inc/admin/admin.php:287
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/admin.php:294
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/admin/admin.php:296
+msgid ""
+"We have prepared detailed theme instructions which will help you to "
+"customize theme as you prefer."
+msgstr ""
+
+#: inc/admin/admin.php:300 inc/admin/admin.php:517
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/admin.php:331 inc/admin/admin.php:409
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/admin/admin.php:335 inc/admin/admin.php:413
+msgid "Activate Now"
+msgstr ""
+
+#: inc/admin/admin.php:339 inc/admin/admin.php:417
+msgid "Deactivate Now"
+msgstr ""
+
+#: inc/admin/admin.php:362
+msgid ""
+"All Set! All the recommended actions are setup in your site. Enjoy using "
+"Travel Log theme."
+msgstr ""
+
+#: inc/admin/admin.php:443
+msgid "5 Star ratings"
+msgstr ""
+
+#: inc/admin/admin.php:467
+msgid "%s Active Installs"
+msgstr ""
+
+#: inc/admin/admin.php:475
+msgid "Tested Upto %s"
+msgstr ""
+
+#: inc/admin/admin.php:483
+msgid "Last Updated : %s"
+msgstr ""
+
+#: inc/admin/admin.php:503
+msgid "Help &amp; Support"
+msgstr ""
+
+#: inc/admin/admin.php:506
+msgid ""
+"If you have any question/feedback regarding theme, please post in our "
+"official support forum."
+msgstr ""
+
+#: inc/admin/admin.php:510
+msgid "Get Support"
+msgstr ""
+
+#: inc/admin/admin.php:519
+msgid ""
+"Need more details? Please check our full documentation for detailed "
+"information on how to use Travel Log."
+msgstr ""
+
+#: inc/admin/admin.php:523
+msgid "Read full documentation"
+msgstr ""
+
+#: inc/admin/admin.php:530
+msgid "Create a child theme"
+msgstr ""
+
+#: inc/admin/admin.php:533
+msgid ""
+"If you want to make changes to the theme's files, those changes are likely "
+"to be overwritten when you next update the theme. In order to prevent that "
+"from happening, you need to create a child theme. For this, please follow "
+"the documentation below."
+msgstr ""
+
+#: inc/admin/admin.php:537
+msgid "View how to do this"
+msgstr ""
+
+#: inc/breadcrumb-class.php:374
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumb-class.php:378 inc/extras.php:50
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumb-class.php:380 inc/single-template-functions.php:51
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumb-class.php:382
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumb-class.php:385
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumb-class.php:388
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumb-class.php:391
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumb-class.php:394
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: inc/controls.php:92
+msgid "&mdash; All &mdash;"
+msgstr ""
+
+#: inc/controls.php:228 inc/controls.php:264
+msgid "Posts Categories"
+msgstr ""
+
+#: inc/controls.php:235
+msgid "Trip Types"
+msgstr ""
+
+#: inc/controls.php:236
+msgid "Trip Locations"
+msgstr ""
+
+#: inc/controls.php:271 inc/customizer/default-values.php:50
+msgid "Recommended Trips"
+msgstr ""
+
+#: inc/controls.php:300
+msgid "Post category"
+msgstr ""
+
+#: inc/controls.php:307
+msgid "Jetpack Testimonials"
+msgstr ""
+
+#: inc/customizer/colors.php:16
+msgid "Links Color"
+msgstr ""
+
+#: inc/customizer/colors.php:17
+msgid "Color for links"
+msgstr ""
+
+#: inc/customizer/colors.php:31
+msgid "Links Hover Color"
+msgstr ""
+
+#: inc/customizer/colors.php:32
+msgid "Color for links on hover"
+msgstr ""
+
+#: inc/customizer/colors.php:46
+msgid "Button Background Color"
+msgstr ""
+
+#: inc/customizer/colors.php:47
+msgid "Color for button background"
+msgstr ""
+
+#: inc/customizer/colors.php:61
+msgid "Button Background Hover Color"
+msgstr ""
+
+#: inc/customizer/colors.php:62
+msgid "Color for buttons on hover"
+msgstr ""
+
+#: inc/customizer/colors.php:76
+msgid "Button Text Color"
+msgstr ""
+
+#: inc/customizer/colors.php:77 inc/customizer/colors.php:92
+#: inc/customizer/colors.php:107
+msgid "Color for button text"
+msgstr ""
+
+#: inc/customizer/colors.php:91
+msgid "Button Text Hover Color"
+msgstr ""
+
+#: inc/customizer/colors.php:106
+msgid "Footer Section Background Color"
+msgstr ""
+
+#: inc/customizer/default-values.php:16
+msgid "right"
+msgstr ""
+
+#: inc/customizer/default-values.php:23
+msgid "MORE INFO"
+msgstr ""
+
+#: inc/customizer/default-values.php:30
+msgid "Search your best tour"
+msgstr ""
+
+#: inc/customizer/default-values.php:31
+msgid "Find your perfect tour with your preferences !!"
+msgstr ""
+
+#: inc/customizer/default-values.php:35
+msgid "Find your perfect tour"
+msgstr ""
+
+#: inc/customizer/default-values.php:36
+msgid ""
+"With special offers and discounts we provide best and cheap tour packages "
+"for different countries. View our Hottest package for the year."
+msgstr ""
+
+#: inc/customizer/default-values.php:45 inc/extras.php:185
+msgid "Book Now"
+msgstr ""
+
+#: inc/customizer/default-values.php:51
+msgid "Here are some of our recomended trips for the year."
+msgstr ""
+
+#: inc/customizer/default-values.php:57
+msgid "What our customers are saying about us?"
+msgstr ""
+
+#: inc/customizer/default-values.php:65
+msgid "latest blog posts"
+msgstr ""
+
+#: inc/customizer/default-values.php:66
+msgid "Read our blog and get an update on every Trips and Tours."
+msgstr ""
+
+#: inc/customizer/default-values.php:82
+msgid "&copy; All Rights Reserved."
+msgstr ""
+
+#: inc/customizer/footer-options.php:13
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/footer-options.php:19
+msgid "Footer Menu "
+msgstr ""
+
+#: inc/customizer/footer-options.php:32
+msgid "Enable Menu Display in Footer"
+msgstr ""
+
+#: inc/customizer/footer-options.php:33
+msgid "Check to enable menu in footer"
+msgstr ""
+
+#: inc/customizer/footer-options.php:42
+msgid "Footer Copyright "
+msgstr ""
+
+#: inc/customizer/footer-options.php:55
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/customizer/footer-options.php:56
+msgid "Enter the copyright text to display in footer"
+msgstr ""
+
+#: inc/customizer/front-page.php:13
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/customizer/front-page.php:19
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:32 inc/customizer/front-page.php:222
+#: inc/customizer/front-page.php:246 inc/customizer/front-page.php:383
+#: inc/customizer/front-page.php:464 inc/customizer/front-page.php:553
+#: inc/customizer/front-page.php:663
+msgid "Enable Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:46 inc/customizer/front-page.php:296
+#: inc/customizer/front-page.php:514 inc/customizer/front-page.php:588
+msgid "Content Type"
+msgstr ""
+
+#: inc/customizer/front-page.php:62 inc/customizer/front-page.php:313
+#: inc/customizer/front-page.php:530 inc/customizer/front-page.php:604
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/front-page.php:80
+msgid "Select Trip Type"
+msgstr ""
+
+#: inc/customizer/front-page.php:81
+msgid "Select the desired Trip Type for Slider section"
+msgstr ""
+
+#: inc/customizer/front-page.php:102
+msgid "Select Trip Location"
+msgstr ""
+
+#: inc/customizer/front-page.php:103
+msgid "Select the desired Trip Location for Slider section"
+msgstr ""
+
+#: inc/customizer/front-page.php:128 inc/customizer/front-page.php:641
+#: inc/customizer/front-page.php:730
+msgid "Slider Speed"
+msgstr ""
+
+#: inc/customizer/front-page.php:129 inc/customizer/front-page.php:642
+#: inc/customizer/front-page.php:731
+msgid "Enter number in milliseconds."
+msgstr ""
+
+#: inc/customizer/front-page.php:143
+msgid "Read More Button Text"
+msgstr ""
+
+#: inc/customizer/front-page.php:144
+msgid "Enter the text for Slider read more button.Leave Blank to disable the button"
+msgstr ""
+
+#: inc/customizer/front-page.php:158
+msgid "Enable Book Now button ?"
+msgstr ""
+
+#: inc/customizer/front-page.php:159
+msgid "Check to enable additional tour Book Now button in slider"
+msgstr ""
+
+#: inc/customizer/front-page.php:169
+msgid "Itinerary Search Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:189 inc/customizer/front-page.php:262
+#: inc/customizer/front-page.php:480 inc/customizer/front-page.php:569
+#: inc/customizer/front-page.php:679
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/front-page.php:190
+msgid "Title for the itinerary search section. Leave blank to remove title."
+msgstr ""
+
+#: inc/customizer/front-page.php:212 inc/customizer/front-page.php:283
+#: inc/customizer/front-page.php:501 inc/customizer/front-page.php:700
+msgid "Sub Title"
+msgstr ""
+
+#: inc/customizer/front-page.php:213
+msgid "Subtitle for the itinerary search section. Leave blank to remove subtitle."
+msgstr ""
+
+#: inc/customizer/front-page.php:223
+msgid ""
+"Check to enable Itinerary Search section with multiple filters below "
+"frontpage slider"
+msgstr ""
+
+#: inc/customizer/front-page.php:233
+msgid "Post Filter Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:314 inc/customizer/front-page.php:335
+#: inc/customizer/front-page.php:357
+msgid ""
+"Hold down the Ctrl (windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+
+#: inc/customizer/front-page.php:334
+msgid "Select Trip Types"
+msgstr ""
+
+#: inc/customizer/front-page.php:356
+msgid "Select Trip Locations"
+msgstr ""
+
+#: inc/customizer/front-page.php:370
+msgid "Call To Action Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:398
+msgid "Call to Action Content"
+msgstr ""
+
+#: inc/customizer/front-page.php:399
+msgid ""
+"choose page to display contents in Call to Action section,The featured "
+"image of the selected page will be used as the background image"
+msgstr ""
+
+#: inc/customizer/front-page.php:414
+msgid "Call to Action Excerpt Length"
+msgstr ""
+
+#: inc/customizer/front-page.php:415
+msgid "No. of words for the Call To Action Sub-title"
+msgstr ""
+
+#: inc/customizer/front-page.php:437
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/front-page.php:451
+msgid "Recommended Posts Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:540
+msgid "Testimonials Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:624
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/front-page.php:625
+msgid "Upload the image for Testimonials section background"
+msgstr ""
+
+#: inc/customizer/front-page.php:650
+msgid "Latest Posts Section"
+msgstr ""
+
+#: inc/customizer/front-page.php:715
+msgid "Exclude Categories"
+msgstr ""
+
+#: inc/customizer/front-page.php:716
+msgid "Enter Comma Separated Category IDs to exclude from Latest Posts Listing"
+msgstr ""
+
+#: inc/customizer/theme-options.php:21
+msgid "Breadcrumb Options "
+msgstr ""
+
+#: inc/customizer/theme-options.php:34
+msgid "Disable Breadcrumbs Display"
+msgstr ""
+
+#: inc/customizer/theme-options.php:35
+msgid "Check to disable the breadcrumbs display"
+msgstr ""
+
+#: inc/customizer/theme-options.php:44
+msgid "Loader Options "
+msgstr ""
+
+#: inc/customizer/theme-options.php:57
+msgid "Disable Loader"
+msgstr ""
+
+#: inc/customizer/theme-options.php:58
+msgid "Check to disable the Loader"
+msgstr ""
+
+#: inc/customizer/theme-options.php:67
+msgid "Header Options "
+msgstr ""
+
+#: inc/customizer/theme-options.php:84
+msgid "Banner Image"
+msgstr ""
+
+#: inc/customizer/theme-options.php:85
+msgid "Upload the image for the header banner section"
+msgstr ""
+
+#: inc/customizer/theme-options.php:101
+msgid "Enable Itinerary Search in Header Search"
+msgstr ""
+
+#: inc/customizer/theme-options.php:102
+msgid "Check show Itineraries Search in Header Search"
+msgstr ""
+
+#: inc/customizer/theme-options.php:112
+msgid "Share Options "
+msgstr ""
+
+#: inc/customizer/theme-options.php:125 inc/customizer/theme-options.php:141
+msgid "Disable Posts Share"
+msgstr ""
+
+#: inc/customizer/theme-options.php:126 inc/customizer/theme-options.php:142
+msgid "Check to disable the posts share option"
+msgstr ""
+
+#: inc/customizer/theme-options.php:158
+msgid "Show Facebook share"
+msgstr ""
+
+#: inc/customizer/theme-options.php:159
+msgid "Check to enable facebook share in posts Sharer"
+msgstr ""
+
+#: inc/customizer/theme-options.php:176
+msgid "Show Twitter share"
+msgstr ""
+
+#: inc/customizer/theme-options.php:177
+msgid "Check to enable Twitter share in posts Sharer"
+msgstr ""
+
+#: inc/customizer/theme-options.php:194
+msgid "Show Google Plus share"
+msgstr ""
+
+#: inc/customizer/theme-options.php:195
+msgid "Check to enable Google Plus share in posts Sharer"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "None"
+msgstr ""
+
+#: inc/customizer.php:85
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "General Layout"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer.php:105
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Enable Static Front Page Contents"
+msgstr ""
+
+#: inc/customizer.php:126
+msgid "Check to enable static front page content block below Homepage Sections."
+msgstr ""
+
+#: inc/extras.php:156
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/extras.php:157
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/home-template-functions.php:130
+msgid "from"
+msgstr ""
+
+#: inc/home-template-functions.php:290
+msgid "All"
+msgstr ""
+
+#: inc/home-template-functions.php:784
+msgid "Please add testimonial posts in the jetpack testimonials post type"
+msgstr ""
+
+#: inc/metabox/header-image-metabox.php:28
+msgid "Check to use featured image as banner image"
+msgstr ""
+
+#: inc/metabox/layout-metabox.php:24
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/metabox/layout-metabox.php:26
+msgid "Default ( customizer option )"
+msgstr ""
+
+#: inc/metabox/metabox-load.php:25
+msgid "Sidebar Layout Options"
+msgstr ""
+
+#: inc/metabox/metabox-load.php:28
+msgid "Header Image Options"
+msgstr ""
+
+#: inc/single-template-functions.php:96
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-functions.php:59 inc/template-functions.php:104
+#: template-parts/content-search.php:28 template-parts/content.php:28
+msgid "Read More"
+msgstr ""
+
+#: inc/template-functions.php:533
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-functions.php:704
+msgid "Proudly powered by"
+msgstr ""
+
+#: inc/template-functions.php:704
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/template-functions.php:704
+msgid "WordPress"
+msgstr ""
+
+#: inc/template-functions.php:708
+msgid "%1$s by %2$s."
+msgstr ""
+
+#: inc/template-tags.php:58
+#. translators: %s: post title
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:82 inc/template-tags.php:88
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:84
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:90
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:97 template-parts/content-page.php:30
+#. translators: %s: Name of current post
+msgid "Edit %s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:330
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:370
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:386
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:827
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:387
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:388
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:390
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:394
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:934
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3509
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:66
+msgid "WP Travel"
+msgstr ""
+
+#: inc/tgm-plugin/tgmpa-hook.php:71
+msgid "WS Theme Addons"
+msgstr ""
+
+#: inc/widget-area.php:13
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widget-area.php:15 inc/widget-area.php:24 inc/widget-area.php:34
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widget-area.php:22
+msgid "Front Page Widget Area"
+msgstr ""
+
+#: inc/widget-area.php:32
+msgid "Footer Widget %s"
+msgstr ""
+
+#: single.php:21
+msgid "Prev"
+msgstr ""
+
+#: single.php:22
+msgid "Next"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:30
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:25 template-parts/content.php:32
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/wp-travel/itinerary-item.php:84
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: template-parts/wp-travel/itinerary-item.php:86
+msgid "out of %1$s5%2$s"
+msgstr ""
+
+#: template-parts/wp-travel/itinerary-item.php:89
+msgid "( %s Reviews )"
+msgstr ""
+
+#: template-parts/wp-travel/itinerary-item.php:106
+msgid "Offer"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Log"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wensolutions.com/themes/travel-log"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Log is a simple and clean Travel WordPress Theme. This Theme is "
+"ideal for travel agencies, hotels, tour operators or any other organization "
+"related to travel and tours. The theme has Theme Options panel based on "
+"powerful Customizer API which makes theme pretty easy to customize and "
+"configure. Travel Log theme also has compatibality for WP Travel Plugin, "
+"that adds ease to managing tours and bookings. Full Demo: "
+"http://wensolutions.com/travel-log-demo/ Documentation : "
+"http://wensolutions.com/documentation/travel-log/ Compatible Travel Plugin "
+": https://wordpress.org/plugins/wp-travel/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WEN Solutions"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wensolutions.com"
+msgstr ""
+
+#: comments.php:33
+#. translators: %s: post title
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:37
+#. translators: 1: number of comments, 2: post title
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/breadcrumb-class.php:376
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1015
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1041
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1067
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1091 inc/breadcrumb-class.php:1133
+#: inc/breadcrumb-class.php:1171 inc/breadcrumb-class.php:1209
+#: inc/breadcrumb-class.php:1672
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1093 inc/breadcrumb-class.php:1173
+#: inc/breadcrumb-class.php:1676
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1095 inc/breadcrumb-class.php:1680
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumb-class.php:1135
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:1121
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm-plugin/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""

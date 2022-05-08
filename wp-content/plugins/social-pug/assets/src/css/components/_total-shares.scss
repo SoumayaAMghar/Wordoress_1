@@ -1,0 +1,103 @@
+/*****************************************/
+/* Total shares
+/*****************************************/
+.dpsp-show-total-share-count {
+  position: relative;
+}
+
+.dpsp-total-share-wrapper {
+  position: relative;
+  margin-top: 10px;
+  color: #5d6368;
+  font-family: 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  line-height: 1.345;
+  .dpsp-total-share-count {
+    font-size: 15px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  .dpsp-icon-total-share {
+    position: absolute;
+    top: 6px;
+    left: 0;
+    margin-top: 0;
+    margin-left: 0;
+    svg {
+      top: 2px;
+      width: auto;
+      max-height: 16px;
+
+      fill: #5d6368;
+    }
+  }
+  #dpsp-floating-sidebar & {
+    margin-bottom: 10px;
+    .dpsp-icon-total-share {
+      display: none;
+    }
+  }
+  span {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  .dpsp-share-buttons-wrapper &,
+  .dpsp-content-wrapper &,
+  .dpsp-pop-up-buttons-wrapper &,
+  .dpsp-shortcode-wrapper & {
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    width: 60px;
+    height: 40px;
+    margin-top: -21px;
+    padding-left: 20px;
+  }
+  #dpsp-sticky-bar & {
+    height: 32px;
+    margin-top: -16px;
+  }
+  #dpsp-sticky-bar-wrapper.dpsp-is-mobile & {
+    display: none;
+  }
+}
+
+
+
+
+.dpsp-share-buttons-wrapper.dpsp-show-total-share-count.dpsp-show-total-share-count-before,
+.dpsp-content-wrapper.dpsp-show-total-share-count.dpsp-show-total-share-count-before,
+.dpsp-pop-up-buttons-wrapper.dpsp-show-total-share-count.dpsp-show-total-share-count-before,
+.dpsp-shortcode-wrapper.dpsp-show-total-share-count.dpsp-show-total-share-count-before {
+  padding-left: 75px;
+}
+
+.dpsp-share-buttons-wrapper,
+.dpsp-content-wrapper,
+.dpsp-pop-up-buttons-wrapper,
+.dpsp-shortcode-wrapper {
+  &.dpsp-show-total-share-count.dpsp-show-total-share-count-after {
+    padding-right: 70px;
+  }
+}
+
+.dpsp-share-buttons-wrapper,
+.dpsp-content-wrapper,
+.dpsp-pop-up-buttons-wrapper,
+.dpsp-shortcode-wrapper {
+  &.dpsp-show-total-share-count.dpsp-show-total-share-count-before .dpsp-total-share-wrapper {
+    left: 0;
+  }
+}
+
+.dpsp-share-buttons-wrapper,
+.dpsp-content-wrapper,
+.dpsp-pop-up-buttons-wrapper,
+.dpsp-shortcode-wrapper {
+  &.dpsp-show-total-share-count.dpsp-show-total-share-count-after .dpsp-total-share-wrapper {
+    right: 0;
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "gutenberg-tests",
+    "version": "1.0.0",
+    "description": "ThirstyAffiliates Gutenberg support script",
+    "main": "./src/index.js",
+    "author": "Rymera Web",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.25.0",
+        "babel-loader": "^7.1.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.6.0",
+        "classnames": "^2.2.5",
+        "cross-env": "^5.0.1",
+        "css-loader": "^0.28.1",
+        "eslint": "^3.19.0",
+        "extract-text-webpack-plugin": "^2.1.0",
+        "lodash": "4.17.10",
+        "node-sass": "^4.5.2",
+        "sass-loader": "^6.0.5",
+        "uglifyjs-webpack-plugin": "^0.4.3",
+        "webpack": "^3.1.0"
+    },
+    "scripts": {
+        "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+        "dev": "cross-env BABEL_ENV=default webpack --watch",
+        "lint": "eslint dist"
+    },
+    "dependencies": {
+        "dom-scroll-into-view": "^1.2.1"
+    }
+}

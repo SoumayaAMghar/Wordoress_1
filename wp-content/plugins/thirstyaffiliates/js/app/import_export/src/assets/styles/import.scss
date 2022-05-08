@@ -1,0 +1,24 @@
+.forminp-import_global_settings {
+
+    #ta_import_settings {
+        width: 530px;
+    }
+
+    .controls {
+        text-align: right;
+        width: 530px;
+        padding-top: 6px;
+
+        #import-setting-button {
+
+        }
+        
+        .spinner {
+            display: inline-block;
+            float: none;
+            visibility: hidden;
+        }
+
+    }
+
+}

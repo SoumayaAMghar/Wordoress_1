@@ -1,0 +1,110 @@
+#thirsty_image_holder {
+	background: white;
+	overflow: hidden;
+	padding: 0px 0px 20px 0px;
+	margin: 10px 0 0 0;
+	border: 1px solid #DFDFDF;
+	text-align: center;
+
+    .thirsty-attached-image {
+        position: relative;
+        border: 1px solid #eee;
+        padding: 5px;
+        margin-left: 20px;
+        margin-top: 20px;
+        float: left;
+    }
+    
+    .thirsty-remove-img {
+        position: absolute;
+        top: -8px;
+        right: -8px;
+        background: #c00;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 0.7em;
+        padding: 2px 3px 4px 3px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .external-image {
+
+        a.thirsty-img {
+            display: block;
+            width: 100px;
+            overflow: hidden;
+        }
+
+        img {
+            height: 100px;
+            width: auto;
+        }
+    }
+
+}
+
+#ta_upload_media_manager,
+#ta_upload_insert_img {
+    margin-top: 5px;
+}
+#ta_upload_insert_img a {
+    text-decoration: none;
+}
+.wp-media-buttons-icon:before {
+    content: "\f104";
+    font-family: dashicons;
+    font-size: 12px;
+}
+
+
+// WP Media Library Popup Styling Overrides
+.attachments-browser .media-toolbar-secondary {
+    width: 300px;
+    max-width: 300px;
+}
+
+.attachments-browser .media-toolbar-primary {
+    width: 200px;
+    max-width: 200px;
+}
+
+#ta-attach-images-metabox {
+
+    .metabox-actions {
+
+        > * {
+            float: left;
+        }
+
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+
+        .or {
+            margin-top: 10px;
+            padding: 0 10px;
+            font-weight: bold;
+        }
+
+        .add-external-image {
+            margin-top: 5px;
+            width: calc(100% - 160px);
+            max-width: 600px;
+        }
+
+        .external-image-form {
+            display: none;
+        }
+        .external-image-form input {
+            width: calc(100% - 165px);
+            padding: 5px 7px;
+        }
+        .external-image-form button.cancel {
+            margin-top: 2px;
+        }
+    }
+}

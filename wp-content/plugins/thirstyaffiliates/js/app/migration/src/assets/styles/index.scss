@@ -1,0 +1,37 @@
+// Vex styling
+@import "../../../node_modules/vex-js/dist/css/vex.css";
+@import "../../../node_modules/vex-js/dist/css/vex-theme-plain.css";
+
+.ta_migrate_old_data-row {
+
+    .forminp-migration_controls {
+
+        #ta_migrate_old_data {
+            float: left;
+            cursor: pointer;
+            text-decoration: none;
+            outline: none;
+        }
+
+        .spinner {
+            float: left;
+            display: inline-block;
+            visibility: hidden;
+        }
+
+        .status {
+            float: left;
+            display: inline-block;
+            visibility: hidden;
+        }
+
+        &.-processing {
+
+            .spinner { visibility: visible; }
+            .status { visibility: visible; }
+
+        }
+
+    }
+
+}

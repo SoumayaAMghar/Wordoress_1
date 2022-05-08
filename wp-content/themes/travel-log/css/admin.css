@@ -1,0 +1,325 @@
+.ui-tabs {
+    position: relative;
+    padding: .2em;
+    zoom: 1;
+}
+
+.ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 1px;
+    margin: 0 .2em 1px 0;
+    border-bottom: 0 !important;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.ui-tabs .ui-tabs-nav li a {
+    float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+    margin-bottom: 0;
+    padding-bottom: 1px;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,
+.ui-tabs .ui-tabs-nav li.ui-state-disabled a,
+.ui-tabs .ui-tabs-nav li.ui-state-processing a {
+    cursor: text;
+}
+
+.ui-tabs .ui-tabs-nav li a,
+.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a {
+    cursor: pointer;
+}
+
+.ui-tabs .ui-tabs-panel {
+    display: block;
+    border-width: 0;
+    padding: 1em 1.4em;
+    background: none;
+}
+
+.ui-tabs .ui-tabs-hide {
+    display: none !important;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 1px .2em 0 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited,
+a.ui-button,
+a:link.ui-button,
+a:visited.ui-button,
+.ui-button {
+    color: #454545;
+    text-decoration: none;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 3px;
+}
+
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+    border-top-left-radius: 3px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: 1px solid #c5c5c5;
+    background: #f6f6f6;
+    font-weight: normal;
+    color: #454545;
+}
+
+.about-wrap .about-text {
+    font-size: 16px;
+}
+
+.travel-theme-wrap .ui-state-active,
+.travel-theme-wrap .ui-widget-content .ui-state-active,
+.travel-theme-wrap .ui-widget-header .ui-state-active,
+.travel-theme-wrap a.ui-button:active {
+    border-color: transparent;
+    background: #fff;
+}
+
+.travel-theme-wrap .ui-widget-header {
+    border: none;
+    background: transparent;
+}
+
+.travel-theme-wrap .ui-widget.ui-widget-content {
+    border-color: transparent;
+    margin-top: 70px;
+    background: transparent;
+}
+
+.travel-theme-wrap .ui-tabs .ui-tabs-panel {
+    background-color: #fff;
+    border-radius: 0;
+    padding: 25px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.travel-theme-wrap .ui-tabs .ui-tabs-nav {
+    padding: 0;
+}
+
+.travel-theme-wrap .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    padding: 10px 15px;
+}
+
+.travel-theme-wrap .ui-state-active a:focus {
+    outline: none;
+}
+
+.travel-theme-wrap .ui-state-active a,
+.travel-theme-wrap .ui-state-active a:link,
+.travel-theme-wrap .ui-state-active a:visited {
+    -webkit-box-shadow: inset 0 2px 0 #0073aa;
+    box-shadow: inset 0 2px 0 #0073aa;
+    color: #0073aa;
+    text-shadow: 1px 0px 0px #0073aa;
+    outline: none;
+}
+
+.travel-theme-wrap .ui-tabs .ui-tabs-panel h3 i {
+    line-height: 1.5;
+    padding-right: 5px;
+}
+
+.travel-theme-wrap .ui-tabs .ui-tabs-panel h3 {
+    color: #454748;
+}
+
+.about-page-action-required-box:last-of-type {
+    margin-bottom: 0;
+}
+
+.about-page-action-required-box {
+    display: block;
+    position: relative;
+    margin: 0 0 15px;
+    padding: 10px 30px;
+    border-left: 4px solid #ca4a20;
+    background: #f1f1f1;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.about-page-action-required-box h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.about-page-action-required-box p {
+    margin-top: 0;
+}
+
+.travel-theme-wrap.about-wrap .about-text,
+.travel-theme-wrap.about-wrap h1 {
+    margin-right: 0;
+}
+
+.travel-theme-wrap .plugin-card {
+    background-color: #f9f9f9;
+    margin-bottom: 4%;
+    padding: 15px 15px 8px;
+    vertical-align: top;
+}
+
+.travel-theme-wrap .entry-thumbnail {
+    max-width: 128px;
+}
+
+.travel-theme-wrap .entry-thumbnail a {
+    display: block;
+}
+
+.travel-theme-wrap .plugin-card .entry {
+    display: inline-block;
+    margin: auto;
+    vertical-align: top;
+    width: calc(96% - 138px);
+}
+
+.travel-theme-wrap .plugin-card .entry-title {
+    font-size: 16px;
+    text-align: left;
+    margin: 0 0 8px;
+}
+
+.travel-theme-wrap .plugin-card .entry-excerpt {
+    margin-bottom: 20px;
+}
+
+.travel-theme-wrap .plugin-card .entry-thumbnail img {
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    width: 128px;
+    height: 128px;
+}
+
+.travel-theme-wrap .plugin-card .entry-title a {
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.travel-theme-wrap .plugin-rating {
+    line-height: 1;
+    margin: 0 10px 8px 0;
+}
+
+.travel-theme-wrap .plugin-rating .wporg-ratings {
+    display: inline-block;
+    margin-right: 5px;
+    color: #ffb900;
+}
+
+.travel-theme-wrap .plugin-rating .rating-count {
+    color: #999;
+    font-size: 12px;
+}
+
+.travel-theme-wrap .plugin-rating .rating-count a {
+    text-decoration: none;
+}
+
+.travel-theme-wrap [class*=dashicons-star-] {
+    color: #ffb900;
+}
+
+.travel-theme-wrap .plugin-card footer span {
+    width: 50%;
+    display: block;
+    font-size: 12px;
+    color: #555;
+    margin: 8px 0;
+    float: left;
+}
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 10px 0px;
+    padding: 12px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.travel-theme-wrap .plugin-card:nth-of-type(2n+1) {
+    clear: left;
+}
+
+@media screen and (min-width: 737px) {
+    .travel-theme-wrap .plugin-card {
+        display: inline-block;
+        width: calc( 50% - 7.5px);
+    }
+    .travel-theme-wrap .entry-thumbnail {
+        display: inline-block;
+        margin: 0 4% 0 0;
+        vertical-align: top;
+    }
+    .travel-theme-wrap .plugin-card:nth-of-type(odd) {
+        margin-right: 7.5px;
+        margin-left: 0;
+    }
+    .travel-theme-wrap .plugin-card:nth-of-type(even) {
+        margin-left: 7.5px;
+        margin-right: 0;
+        clear: none;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .travel-theme-wrap .plugin-card .entry {
+        width: 100%;
+    }
+    .travel-theme-wrap .entry-thumbnail {
+        margin: 0 auto 15px;
+    }
+}

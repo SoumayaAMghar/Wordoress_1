@@ -1,0 +1,63 @@
+// `@include network-color('facebook',#3a579a, #334d87)` will add the styling for the facebook icon with the appropriate brand and hover colors
+@mixin network-color($slug, $default, $hover) {
+  .dpsp-#{$slug} {
+    --networkAccent: #{$hover};
+    --networkColor: #{rgba($default, 1)};
+    --networkHover: #{rgba($hover, 0.4)};
+  }
+  .dpsp-networks-btns-wrapper .dpsp-network-btn.dpsp-#{$slug} {
+    border-color: $default;
+    color: $default;
+    background: $default;
+    &:not(:hover):not(:active) {
+      color: $default;
+    }
+    .dpsp-network-icon {
+      border-color: $default;
+      color: $default;
+      background: $default;
+      &.dpsp-network-icon-outlined {
+        .dpsp-network-icon-inner > svg {
+          fill: none !important;
+          stroke: var(--customNetworkColor, var(--networkColor, $default));
+          stroke-width: 1;
+        }
+      }
+      .dpsp-network-icon-inner > svg {
+        fill: var(--customNetworkColor, var(--networkColor, $default));
+        & > svg {
+          fill: var(--customNetworkColor, var(--networkColor, $default));
+          stroke: var(--customNetworkColor, var(--networkColor, $default));
+          stroke-width: 1;
+        }
+      }
+    }
+
+    &:hover,
+    &:focus {
+      border-color: $hover;
+      color: $hover;
+      background: $hover;
+
+      .dpsp-network-icon {
+        border-color: $hover;
+        color: $hover;
+        background: $hover;
+
+        .dpsp-network-icon-inner > svg {
+          fill: $hover;
+          & > svg {
+            fill: var(--customNetworkHoverColor, var(--networkHover, $hover));
+            stroke: var(--customNetworkHoverColor, var(--networkHover, $hover));
+          }
+        }
+      }
+    }
+  }
+}
+
+// `@include css-var('color','color-body', red)` will add a css variable call to --mv-trellis-color-body, with a fallback color
+@mixin css-var($property, $css-var, $default) {
+  #{$property}: $default;
+  #{$property}: var(--mv-grow-#{$css-var}, $default);
+}

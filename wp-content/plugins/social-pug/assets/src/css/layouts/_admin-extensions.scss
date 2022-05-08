@@ -1,0 +1,37 @@
+.dpsp-page-wrapper.dpsp-page-extensions {
+  max-width: 1000px;
+}
+
+.dpsp-page-extensions .dpsp-card {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.dpsp-unavailable > a {
+  display: block;
+  line-height: 0;
+}
+.dpsp-unavailable h4 {
+  padding-bottom: 0;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 0;
+  text-align: left;
+}
+.dpsp-unavailable p.dpsp-description {
+  margin: 0;
+  padding: 10px;
+}
+.dpsp-unavailable .dpsp-tool-actions {
+  overflow: hidden;
+  padding: 15px 10px;
+  border-top: 1px solid #f1f1f1; 
+  background: #f9f9f9;
+  text-align: center;
+}
+.dpsp-unavailable .dpsp-tool-actions .button {
+  padding-right: 25px; 
+  padding-left: 25px;
+}
+.dpsp-unavailable .dpsp-description {
+  height: 57px;
+}

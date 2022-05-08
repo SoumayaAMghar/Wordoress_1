@@ -1,0 +1,26 @@
+.search-panel {
+    margin: auto;
+
+    .search-label {
+        font-size: 14px;
+    }
+
+    .thirstylink-search-field {
+        border-radius: 0;
+        font-size: 14px;
+        padding: 5px;
+        width: 400px;
+    }
+
+    .selectize-control {
+        width: 200px;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+
+        .selectize-input {
+            padding: 5px 10px;
+        }
+    }
+    
+}

@@ -1,0 +1,22 @@
+/* General */
+body {
+    background: #f1f1f1;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+}
+#quick_add_affiliate_link {
+    margin: 20px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        margin-bottom: 5px;
+    }
+}
+
+@import "./form-style";

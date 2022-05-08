@@ -1,0 +1,1707 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ThirstyAffiliates\n"
+"POT-Creation-Date: 2021-07-29 09:01-0600\n"
+"PO-Revision-Date: 2021-08-12 14:42-0600\n"
+"Language-Team: Rymera Web Co <support@thirstyaffiliates.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e\n"
+"Last-Translator: \n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: .hg\n"
+"X-Poedit-SearchPathExcluded-1: .idea\n"
+"X-Poedit-SearchPathExcluded-2: js/lib\n"
+"X-Poedit-SearchPathExcluded-3: *node_modules*\n"
+"X-Poedit-SearchPathExcluded-4: js/app\n"
+
+#: Helpers/Plugin_Constants.php:89
+msgid "301 Permanent"
+msgstr "301 Permamente"
+
+#: Helpers/Plugin_Constants.php:90
+msgid "302 Temporary"
+msgstr "302 Temporal"
+
+#: Helpers/Plugin_Constants.php:91
+msgid "307 Temporary (alternative)"
+msgstr "307 Temporal (alternativa)"
+
+#: Models/Affiliate_Link.php:611
+msgid ""
+"Unable to save affiliate link as there are no changes registered on the object yet."
+msgstr ""
+"No se puede guardar el enlace de afiliado porque aún no hay cambios registrados en el "
+"objeto."
+
+#: Models/Affiliate_Link_Attachment.php:130 Models/Affiliate_Link_Attachment.php:200
+#: Models/Affiliate_Link_Attachment.php:300 Models/Affiliate_Links_CPT.php:906
+#: Models/Affiliate_Links_CPT.php:931 Models/Guided_Tour.php:313
+#: Models/Link_Fixer.php:241 Models/Link_Fixer.php:243 Models/Link_Picker.php:340
+#: Models/Link_Picker.php:411 Models/Link_Picker.php:540 Models/Marketing.php:175
+#: Models/Marketing.php:300 Models/Marketing.php:448 Models/Settings.php:1871
+#: Models/Settings.php:1919 Models/Stats_Reporting.php:402
+#: Models/Stats_Reporting.php:448
+msgid "Invalid AJAX call"
+msgstr "Llamada AJAX inválida"
+
+#: Models/Affiliate_Link_Attachment.php:132 Models/Affiliate_Link_Attachment.php:202
+#: Models/Affiliate_Link_Attachment.php:302 Models/Affiliate_Links_CPT.php:908
+#: Models/Affiliate_Links_CPT.php:933 Models/Link_Picker.php:342
+#: Models/Link_Picker.php:413 Models/Link_Picker.php:542 Models/Marketing.php:302
+#: Models/Stats_Reporting.php:404 Models/Stats_Reporting.php:450
+msgid "Missing required post data"
+msgstr "Faltan datos de publicación requeridos"
+
+#: Models/Affiliate_Link_Attachment.php:152
+msgid "Attachments successfully added to the affiliate link"
+msgstr "Los archivos adjuntos se agregaron correctamente al enlace de afiliado"
+
+#: Models/Affiliate_Link_Attachment.php:177
+msgid "Invalid attachment ids to attach to an affiliate link"
+msgstr "ID de archivos adjuntos no válidos para adjuntar a un enlace de afiliado"
+
+#: Models/Affiliate_Link_Attachment.php:210
+msgid "Attachment successfully removed from attachment"
+msgstr "Archivo adjunto eliminado correctamente del archivo adjunto"
+
+#: Models/Affiliate_Link_Attachment.php:237
+msgid "Invalid attachment id to remove from an affiliate link"
+msgstr "ID de archivo adjunto no válido para eliminar de un enlace de afiliado"
+
+#: Models/Affiliate_Link_Attachment.php:304
+msgid "The external image source is not a valid url."
+msgstr "La fuente de la imagen externa no es una URL válida."
+
+#: Models/Affiliate_Link_Attachment.php:312
+msgid "The external image is already added."
+msgstr "La imagen externa ya está agregada."
+
+#: Models/Affiliate_Links_CPT.php:199 Models/Affiliate_Links_CPT.php:203
+#: Models/Affiliate_Links_CPT.php:215
+msgid "Affiliate Links"
+msgstr "Enlaces de Afiliados"
+
+#: Models/Affiliate_Links_CPT.php:200
+msgid "Affiliate Link"
+msgstr "Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:201
+msgid "ThirstyAffiliates"
+msgstr "ThirstyAffiliates"
+
+#: Models/Affiliate_Links_CPT.php:202
+msgid "Parent Affiliate Link"
+msgstr "Afiliado principal"
+
+#: Models/Affiliate_Links_CPT.php:204
+msgid "View Affiliate Link"
+msgstr "Ver Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:205
+msgid "Add Affiliate Link"
+msgstr "Agregar Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:206
+msgid "New Affiliate Link"
+msgstr "Neuvo Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:207
+msgid "Edit Affiliate Link"
+msgstr "Editar Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:208
+msgid "Update Affiliate Link"
+msgstr "Actualizar Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:209
+msgid "Search Affiliate Links"
+msgstr "Buscar Enlaces de Afiliados"
+
+#: Models/Affiliate_Links_CPT.php:210
+msgid "No Affiliate Link found"
+msgstr "No Se Encontró Ningún Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:211
+msgid "No Affiliate Links found in Trash"
+msgstr "No se encontraron enlaces de afiliados en la papelera"
+
+#: Models/Affiliate_Links_CPT.php:216
+msgid "ThirstyAffiliates affiliate links"
+msgstr "Enlaces de Afiliados de ThirstyAffiliates"
+
+#: Models/Affiliate_Links_CPT.php:261 Models/Affiliate_Links_CPT.php:263
+#: views/linkpicker/quick-add-affiliate-link.php:74
+msgid "Link Categories"
+msgstr "Categorías de Enlaces"
+
+#: Models/Affiliate_Links_CPT.php:262
+msgid "Link Category"
+msgstr "Link Categoria"
+
+#: Models/Affiliate_Links_CPT.php:264 views/linkpicker/advance-link-picker.php:23
+msgid "All Categories"
+msgstr "Todas las Categorias"
+
+#: Models/Affiliate_Links_CPT.php:265
+msgid "Parent Category"
+msgstr "Categoría Principal"
+
+#: Models/Affiliate_Links_CPT.php:266
+msgid "Parent Category:"
+msgstr "Categoría Principal:"
+
+#: Models/Affiliate_Links_CPT.php:267
+msgid "New Category Name"
+msgstr "Nombre de la Nueva Categoría"
+
+#: Models/Affiliate_Links_CPT.php:268
+msgid "Add New Category"
+msgstr "Añadir Nueva Categoría"
+
+#: Models/Affiliate_Links_CPT.php:269
+msgid "Edit Category"
+msgstr "Editar Categoria"
+
+#: Models/Affiliate_Links_CPT.php:270
+msgid "Update Category"
+msgstr "Actualizar Categoría"
+
+#: Models/Affiliate_Links_CPT.php:271
+msgid "View Category"
+msgstr "Ver Categoría"
+
+#: Models/Affiliate_Links_CPT.php:272
+msgid "Separate items with commas"
+msgstr "Separar elementos con comas"
+
+#: Models/Affiliate_Links_CPT.php:273
+msgid "Add or remove items"
+msgstr "Agregar o quitar elementos"
+
+#: Models/Affiliate_Links_CPT.php:274
+msgid "Choose from the most used"
+msgstr "Elige entre los más usados"
+
+#: Models/Affiliate_Links_CPT.php:275
+msgid "Popular Categories"
+msgstr "Categorías Populares"
+
+#: Models/Affiliate_Links_CPT.php:276
+msgid "Search Categories"
+msgstr ""
+"Buscar \n"
+"Categorías"
+
+#: Models/Affiliate_Links_CPT.php:277
+msgid "Not Found"
+msgstr "No se encontro"
+
+#: Models/Affiliate_Links_CPT.php:278
+msgid "No items"
+msgstr "No hay elementos"
+
+#: Models/Affiliate_Links_CPT.php:279
+msgid "Category list"
+msgstr "Lista de Categorías"
+
+#: Models/Affiliate_Links_CPT.php:280
+msgid "Category list navigation"
+msgstr "Navegación por lista de categorías"
+
+#: Models/Affiliate_Links_CPT.php:323
+msgid "Link ID:"
+msgstr "ID de Enlace:"
+
+#: Models/Affiliate_Links_CPT.php:339
+msgid "URLs"
+msgstr "URLs"
+
+#: Models/Affiliate_Links_CPT.php:346
+msgid "Attach Images"
+msgstr "Adjuntar Imágenes"
+
+#: Models/Affiliate_Links_CPT.php:353
+msgid "Link Inserted Scanner"
+msgstr "Escáner de Enlaces Insertados"
+
+#: Models/Affiliate_Links_CPT.php:363
+msgid "Save Affiliate Link"
+msgstr "Guardar Enlace de Afiliado"
+
+#: Models/Affiliate_Links_CPT.php:370
+msgid "Link Options"
+msgstr "Opciones de Enlace"
+
+#: Models/Affiliate_Links_CPT.php:505
+msgid "Not yet scanned"
+msgstr "Aún no escaneado"
+
+#: Models/Affiliate_Links_CPT.php:510 Models/Affiliate_Links_CPT.php:945
+msgid "Last scanned on:"
+msgstr "Escaneado por última vez el:"
+
+#: Models/Affiliate_Links_CPT.php:530
+msgid "No results found."
+msgstr "No se han encontrado resultados."
+
+#: Models/Affiliate_Links_CPT.php:663
+msgid "Link ID"
+msgstr "ID de Enlace"
+
+#: Models/Affiliate_Links_CPT.php:664
+msgid "Redirect Type"
+msgstr "Tipo de Redirección"
+
+#: Models/Affiliate_Links_CPT.php:665
+msgid "Cloaked URL"
+msgstr "URL Encubierta"
+
+#: Models/Affiliate_Links_CPT.php:666
+msgid "Link Destination"
+msgstr "Destino del Enlace"
+
+#: Models/Affiliate_Links_CPT.php:800
+msgid "Show Link Categories"
+msgstr "Mostrar Categorías de Enlaces"
+
+#: Models/Bootstrap.php:389 Models/Settings.php:763
+msgid "Settings"
+msgstr "Ajustes"
+
+#: Models/Bootstrap.php:427 Models/Settings.php:2043
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Lo sentimos, no se permite acceder a esta página."
+
+#: Models/Guided_Tour.php:151
+msgid ""
+"<h3>Congratulations, you just activated ThirstyAffiliates!</h3>\n"
+"                               <p>Would you like to take a tour of the plugin "
+"features? It takes less than a minute and you'll then know exactly how to use the "
+"plugin.</p>"
+msgstr ""
+"<h3>¡Felicitaciones, acabas de activar ThirstyAffiliates!</h3>\n"
+"                               <p>¿Le gustaría hacer un recorrido por las funciones "
+"del plugin? Tarda menos de un minuto y entonces sabrá exactamente cómo usar el plugin."
+"</p>"
+
+#: Models/Guided_Tour.php:160
+msgid ""
+"<h3>ThirstyAffiliates helps you manage affiliate links that you are given from the "
+"various affiliate programs you are a member of.</h3>\n"
+"                               <p>It lets you hide long, and often confusing looking, "
+"affiliate link URLs behind another URL called a redirect. When your visitors click on "
+"that new URL they are automatically redirected to your affiliate link.</p>\n"
+"                               <p>This is helpful for five reasons:</p>\n"
+"                               <ol><li>AESTHETICS: Affiliate links are often long and "
+"ugly as mentioned and this can look off putting to visitors. ThirstyAffiliates "
+"redirects make them shorter and more attractive to click on like \"http://example.com/"
+"recommends/some-product-name\"</li>\n"
+"                               <li>PROTECTION: It hides the affiliate code, so "
+"malicious software (malware) cannot sniff out the affiliate code for common affiliate "
+"programs and replace it with their own code instead. In this way, it protects your "
+"commissions.</li>\n"
+"                               <li>CONVENIENCE: If the affiliate program ever changes "
+"the link code you’ll only have ONE place to change it on your blog, rather than going "
+"through all your content and changing every instance of the link.</li>\n"
+"                               <li>CATEGORIZATION: You categorize your affiliate "
+"links into logical groups which can make managing them much simpler.</li>\n"
+"                               <li>STATISTICS: Finally, because your visitors are "
+"travelling via a ThirstyAffiliates redirect, the plugin can provide you with "
+"statistics on what is being clicked.</li></ol>\n"
+"                               <p>You can now create an “Affiliate Link” in this new "
+"section in your dashboard. This view shows you all the affiliate links you are "
+"managing with ThirstyAffiliates.</p>"
+msgstr ""
+"<h3>ThirstyAffiliates le ayuda a administrar los enlaces de afiliados que le brindan "
+"los diversos programas de afiliados de los que es miembro.</h3>\n"
+"                               <p>Le permite ocultar URL de enlaces de afiliados "
+"largas y, a menudo, confusas detrás de otra URL llamada redirección. Cuando sus "
+"visitantes hacen clic en esa nueva URL, se les redirige automáticamente a su enlace "
+"de afiliado.</p>\n"
+"                               <p>Esto le ayudará por cinco razones:</p>\n"
+"                               <ol><li>ESTÉTICA: Los enlaces de afiliados suelen ser "
+"largos y feos como se mencionó y esto puede parecer desagradable para los visitantes. "
+"Los redireccionamientos de ThirstyAffiliates los hacen más cortos y atractivos para "
+"hacer clic como \"http://ejemplo.com/recomendaciones/nombre-de-algun-producto\"</li>\n"
+"                               <li>PROTECCIÓN: Oculta el código de afiliado, por lo "
+"que el software malintencionado (malware) no puede rastrear el código de afiliado en "
+"busca de programas de afiliados comunes y reemplazarlo con su propio código. De esta "
+"forma protege tus comisiones.</li>\n"
+"                               <li>CONVENIENCIA: Si el programa de afiliados alguna "
+"vez cambia el código del enlace, solo tendrá UN SOLO lugar para cambiarlo en su blog, "
+"en lugar de revisar todo su contenido y cambiar cada instancia del enlace.</li>\n"
+"                               <li>CATEGORIZACIÓN: categoriza sus enlaces de "
+"afiliados en grupos lógicos que pueden hacer que su administración sea mucho más "
+"simple.</li>\n"
+"                               <li>ESTADÍSTICAS: Finalmente, debido a que sus "
+"visitantes viajan a través de un redireccionamiento de ThirstyAffiliates, el plugin "
+"puede proporcionarle estadísticas sobre lo que se está haciendo clic.</li></ol>\n"
+"                               <p>Ahora puede crear un \"Enlace de Afiliado\" en esta "
+"nueva sección de su panel de control. Esta vista le muestra todos los enlaces de "
+"afiliados que está administrando con ThirstyAffiliates.</p>"
+
+#: Models/Guided_Tour.php:177
+msgid ""
+"<h3>Affiliate links can be added to your posts easily by clicking on the “TA” button "
+"on your editor.</h3>\n"
+"                               <p>This works identically to the WordPress link tool, "
+"but only searches for affiliate links.</p>\n"
+"                               <p>Give it a try by typing in some text, highlighting "
+"it, then clicking the “TA” button.</p>\n"
+"                               <p>If you need to you can click the cog icon for an "
+"advanced search view which is handy for doing more advanced searches and for "
+"inserting images pre-wrapped with your affiliate link or via a shortcode instead.</p>"
+msgstr ""
+"<h3>Los enlaces de afiliados se pueden agregar a sus publicaciones fácilmente "
+"haciendo clic en el botón \"TA\" en su editor.</h3>\n"
+"                               <p>Esto funciona de manera idéntica a la herramienta "
+"de enlaces de WordPress, pero solo busca enlaces de afiliados.</p>\n"
+"                               <p>Pruébelo escribiendo un texto, resaltándolo y luego "
+"haciendo clic en el botón \"TA\".</p>\n"
+"                               <p>Si lo necesita, puede hacer clic en el ícono de "
+"engranaje para obtener una vista de búsqueda avanzada que es útil para realizar "
+"búsquedas más avanzadas y para insertar imágenes preempaquetadas con su enlace de "
+"afiliado o mediante un shortcode.</p>"
+
+#: Models/Guided_Tour.php:190
+msgid ""
+"<h3>ThirstyAffiliates has a number of settings that change the way it works, behaves "
+"and how your links appear.</h3>\n"
+"                                   <p>Here are the General settings which are for "
+"changing the way you work with ThirstyAffiliates in the backend.</p>"
+msgstr ""
+"<h3>ThirstyAffiliates tiene una serie de configuraciones que cambian la forma en que "
+"funciona, se comporta y cómo aparecen sus enlaces.</h3>\n"
+"                                   <p>Aquí están las configuraciones generales que "
+"sirven para cambiar la forma en que trabaja con ThirstyAffiliates en el backend.</p>"
+
+#: Models/Guided_Tour.php:199
+msgid ""
+"<h3>One of the most important parts of the settings area is Link Appearance which "
+"changes the way your links look to your visitors.</h3>\n"
+"                                   <p>This includes the Link Prefix setting which is "
+"important to decide on before you start using ThirstyAffiliates.</p>\n"
+"                                   <p>By default, this is set to “recommends” so your "
+"links will look like “http://example.com/recommends/some-product-name”.</p>\n"
+"                                   <p>You can also choose to include the category "
+"slug in the URL, change the way ThirstyAffiliates redirects links, add no follow, "
+"make links open in a new window and more.</p>"
+msgstr ""
+"<h3>Una de las partes más importantes del área de configuración es la apariencia del "
+"enlace, que cambia la forma en que sus enlaces ven a sus visitantes.</h3>\n"
+"                                   <p>Esto incluye la configuración de Prefijo de "
+"Enlace que es importante decidir antes de comenzar a usar ThirstyAffiliates.</p>\n"
+"                                   <p>De forma predeterminada, se establece en "
+"\"recomienda\", por lo que sus enlaces se verán como \"http://ejemplo.com/recomienda/"
+"alguno-nombre-de-producto\".</p>\n"
+"                                   <p>También puede optar por incluir la categoría "
+"slug en la URL, cambiar la forma en que ThirstyAffiliates redirige los enlaces, "
+"agregar no seguir, hacer que los enlaces se abran en una nueva ventana y más.</p>"
+
+#: Models/Guided_Tour.php:211
+msgid ""
+"<h3>We built ThirstyAffiliates to be flexible and as such, you can shut down the "
+"parts of ThirstyAffiliates that aren’t being used. This can make the plugin faster.</"
+"h3>\n"
+"                                   <p>If you have the Pro add-on each Pro module will "
+"show in here as well.</p>"
+msgstr ""
+"<h3>Creamos ThirstyAffiliates para que sea flexible y, como tal, puede cerrar las "
+"partes de ThirstyAffiliates que no se están utilizando. Esto puede hacer que el "
+"plugin sea más rápido.</h3>\n"
+"                                   <p> Si tiene el Pro add-on, cada módulo Pro "
+"también se mostrará aquí.</p>"
+
+#: Models/Guided_Tour.php:220
+msgid ""
+"<h3>Setting up multiple sites with all running ThirstyAffiliates?</h3>\n"
+"                                   <p>We’ve made it super simple to configure your "
+"additional sites by being able to import and export ThirstyAffiliate settings.</p>\n"
+"                                   <p>Just copy the Export section and paste it into "
+"the Import section on your other site and ThirstyAffiliates will be automatically "
+"configured the same way.</p>"
+msgstr ""
+"<h3>¿Está configurando varios sitios con ThirstyAffiliates</h3>\n"
+"                                   <p>Hemos simplificado enormemente la configuración "
+"de sus sitios adicionales al poder importar y exportar la configuración de "
+"ThirstyAffiliate.</p>\n"
+"                                   <p>Simplemente copie la sección Exportar y péguela "
+"en la sección Importar en su otro sitio y ThirstyAffiliates se configurará "
+"automáticamente de la misma manera.</p>"
+
+#: Models/Guided_Tour.php:230
+msgid ""
+"<h3>Need some help with ThirstyAffiliates?</h3>\n"
+"                                   <p>We have a growing knowledge base filled with "
+"guides, troubleshooting and FAQ.</p>\n"
+"                                   <p>Our blog is also very active with lots of "
+"interesting affiliate marketing topics to help you grow your affiliate marketing "
+"empire.</p>"
+msgstr ""
+"<h3>¿Necesita ayuda con ThirstyAffiliates?</h3>\n"
+"                                   <p>Tenemos una base de conocimientos lleno de "
+"guías, solución de problemas y preguntas frecuentes. Siempre estan creciendo.</p>\n"
+"                                   <p>Nuestro blog también es muy activo con muchos "
+"temas interesantes de marketing de afiliados para ayudarlo a hacer crecer su imperio "
+"de marketing de afiliados.</p>"
+
+#: Models/Guided_Tour.php:241
+msgid ""
+"<h3> This concludes the guide. You are now ready to setup your first affiliate link!</h3>\n"
+"                               <p>We also have a Pro add-on for ThirstyAffiliates "
+"which contains lots of interesting features for affiliates like:</p>\n"
+"                               <ul><li>Automatically link up your affiliate links to "
+"keywords in your blog</li>\n"
+"                               <li>Get more detailed and advanced reports</li>\n"
+"                               <li>Geolocated affiliate links</li>\n"
+"                               <li>Google Analytics integration</li>\n"
+"                               <li>CSV importing/exporting, Amazon importing, and "
+"more</li>\n"
+"                               <li>Link event notification admin emails</li>\n"
+"                               <li>Automatic link health checker</li></ul>\n"
+"                               <p>Want to unlock all of the extra features you see "
+"here? The Pro add-on is for you. And we’re adding new features all the time!</p>"
+msgstr ""
+"<h3>Con esto concluye la guía. ¡Ahora está listo para configurar su primer enlace de "
+"afiliado!</h3>\n"
+"                               <p>También tenemos un add-on Pro para "
+"ThirstyAffiliates que contiene muchas características interesantes para afiliados "
+"como:</p>\n"
+"                               <ul><li>Vincula automáticamente tus enlaces de "
+"afiliados a palabras clave en tu blog</li>\n"
+"                               <li>Obtenga informes más detallados y avanzados</li>\n"
+"                               <li>Enlaces de afiliados geolocalizados</li>\n"
+"                               <li>Integración de Google Analytics</li>\n"
+"                               <li>Importación / exportación de CSV, importación de "
+"Amazon y más</li>\n"
+"                               <li>Vincular correos electrónicos de administración de "
+"notificación de eventos</li>\n"
+"                               <li>Comprobador de estado de enlace automático</li></"
+"ul>\n"
+"                               <p>¿Quieres desbloquear todas las funciones "
+"adicionales que ves aquí? El complemento Pro es para ti. ¡Y estamos agregando nuevas "
+"funciones todo el tiempo!</p>"
+
+#: Models/Guided_Tour.php:256
+msgid "Check out the current Pro add-on features"
+msgstr "Echa un vistazo a las funciones actuales de add-on Pro"
+
+#: Models/Guided_Tour.php:315
+msgid "Security Check Failed"
+msgstr "Falló la comprobación de seguridad"
+
+#: Models/Link_Picker.php:271
+msgid "Select image:"
+msgstr "Seleccionar imagen:"
+
+#: Models/Link_Picker.php:286
+msgid "No images found"
+msgstr "No se encontraron imágenes"
+
+#: Models/Link_Picker.php:302
+msgid "Insert link"
+msgstr "Insertar enlace"
+
+#: Models/Link_Picker.php:303
+msgid "Insert shortcode"
+msgstr "Insertar Shortcode"
+
+#: Models/Link_Picker.php:304
+msgid "Insert image"
+msgstr "Insertar imagen"
+
+#: Models/Link_Picker.php:325
+msgid "No affiliate links found"
+msgstr "No se encontraron enlaces de afiliados"
+
+#: Models/Marketing.php:177 Models/Settings.php:1921
+msgid "Required parameter not passed"
+msgstr "Parámetro requerido no pasado"
+
+#: Models/Marketing.php:187
+msgid "Review request response saved"
+msgstr "Respuesta a la solicitud de revisión guardada"
+
+#: Models/Marketing.php:218
+#, php-format
+msgid ""
+"<p>We see you have been using ThirstyAffiliates for a couple of weeks now – thank you "
+"once again for your purchase and we hope you are enjoying it so far!</p>\n"
+"                                 <p>We'd really appreciate it if you could take a few "
+"minutes to write a 5-star review of our free plugin on WordPress.org!</p>\n"
+"                                 <p>Your comment will go a long way to helping us "
+"grow and giving new users the confidence to give us a try.</p>\n"
+"                                 <p>Thanks in advance, we are looking forward to "
+"reading it!</p>\n"
+"                                 <p>PS. If you ever need support, please just <a href="
+"\"%1$s\" target=\"_blank\">get in touch here.</a></p>"
+msgstr ""
+"<p>Vemos que ha estado usando ThirstyAffiliates durante un par de semanas. ¡Gracias "
+"una vez más por su compra y esperamos que lo esté disfrutando hasta ahora!</p>\n"
+"                                 <p>¡Realmente agradeceríamos que se tomara unos "
+"minutos para escribir una reseña de 5 estrellas de nuestro complemento gratuito en "
+"WordPress.org!</p>\n"
+"                                 <p>Su comentario contribuirá en gran medida a "
+"ayudarnos a crecer y a dar a los nuevos usuarios la confianza para que nos den una "
+"oportunidad.</p>\n"
+"                                 <p>Gracias de antemano, ¡estamos deseando leerlo!</"
+"p>\n"
+"                                 <p>PD. Si alguna vez necesita ayuda, simplemente <a "
+"href=\"%1$s\" target=\"_blank\">póngase en contacto aquí</a>.</p>"
+
+#: Models/Marketing.php:226
+msgid ""
+"<p>Thanks for using our free ThirstyAffiliates plugin – we hope you are enjoying it "
+"so far.</p>\n"
+"                        <p>We’d really appreciate it if you could take a few minutes "
+"to write a 5-star review of our plugin on WordPress.org!</p>\n"
+"                        <p>Your comment will go a long way to helping us grow and "
+"giving new users the confidence to give us a try.</p>\n"
+"                        <p>Thanks in advance, we are looking forward to reading it!</"
+"p>"
+msgstr ""
+"<p>Gracias por usar nuestro complemento gratuito ThirstyAffiliates. Esperamos que lo "
+"esté disfrutando hasta ahora.</p>\n"
+"                                 <p>¡Realmente agradeceríamos que se tomara unos "
+"minutos para escribir una reseña de 5 estrellas de nuestro complemento gratuito en "
+"WordPress.org!</p>\n"
+"                                 <p>Su comentario contribuirá en gran medida a "
+"ayudarnos a crecer y a dar a los nuevos usuarios la confianza para que nos den una "
+"oportunidad.</p>\n"
+"                                 <p>Gracias de antemano, ¡estamos deseando leerlo!</p>"
+
+#: Models/Marketing.php:241
+msgid "Don't show again"
+msgstr "No mostrar de nuevo"
+
+#: Models/Marketing.php:242
+msgid "Review later"
+msgstr "Revisar más tarde"
+
+#: Models/Marketing.php:243
+msgid "Review"
+msgstr "Dar una Revisión"
+
+#: Models/Marketing.php:267
+#, php-format
+msgid ""
+"<h4>Hi there, we hope you're enjoying ThirstyAffiliates!</h4>\n"
+"                     <p>Did you know we also have a Pro addon that can help you:</p>\n"
+"                     <ul><li>Automatically link up affiliate links to keywords "
+"throughout your site (monetize your site faster!)</li>\n"
+"                     <li>Give you more amazing advanced reports (see what is working "
+"and what is not!)</li>\n"
+"                     <li>Let you link to different places depending on the visitor's "
+"country (geolocation links)</li>\n"
+"                     <li>Let you import Amazon products as links (+ CSV import/export "
+"and more premium importing options)</li>\n"
+"                     <li>... plus a whole lot more!</li></ul>\n"
+"                     <p><a href=\"%s\" target=\"_blank\">Check out the "
+"ThristyAffiliates Pro features here →</a></p>"
+msgstr ""
+"<h4>Hola, esperamos que estés disfrutando de ThirstyAffiliates.</h4>\n"
+"                     <p>¿Sabías que también tenemos un addon Pro que puede ayudarte?</"
+"p>\n"
+"                     <ul><li>Vincula automáticamente enlaces de afiliados a palabras "
+"clave en todo tu sitio (¡monetiza tu sitio más rápido!)</li>\n"
+"                     <li>Brindarle informes avanzados más sorprendentes (¡vea qué "
+"funciona y qué no!)</li>\n"
+"                     <li>Le permite enlazar a diferentes lugares según el país del "
+"visitante (enlaces de geolocalización)</li>\n"
+"                     <li>Le permite importar productos de Amazon como enlaces (+ "
+"importación/exportación CSV y más opciones de importación premium)</li>\n"
+"                     <li>¡Mas, un monton mas!</li></ul>\n"
+"                     <p><a href=\"%s\" target=\"_blank\">Echa un vistazo a las "
+"funciones de ThristyAffiliates Pro aquí →</a></p>"
+
+#: Models/Marketing.php:388
+msgid ""
+"<h4>Enable Enhanced Javascript Redirect</h4>\n"
+"                     <p>ThirstyAffiliates version 3.2.5 introduces a new method of "
+"redirecting via javascript which will only run on your website's frontend.\n"
+"                     We've added this so the plugin can provide more accurate "
+"tracking data of your affiliate link clicks.\n"
+"                     This feature is turned on automatically for <strong>new "
+"installs</strong>, but for this install we would like to give you the choice of "
+"enabling the feature or not.</p>"
+msgstr ""
+"<h4>Habilitar la redirección de JavaScript mejorada</h4>\n"
+"                     <p>ThirstyAffiliates versión 3.2.5 introduce un nuevo método de "
+"redireccionamiento a través de javascript que solo se ejecutará en la interfaz de su "
+"sitio web.\n"
+"                     Hemos agregado esto para que el plugin pueda proporcionar datos "
+"de seguimiento más precisos de los clics en sus enlaces de afiliado.\n"
+"                     Esta función se activa automáticamente para <strong>nuevas "
+"instalaciones</strong>, pero para esta instalación nos gustaría darle la opción de "
+"habilitar la función o no.</p>"
+
+#: Models/Marketing.php:395
+msgid "Enable enhanced javascript redirect feature"
+msgstr "Habilitar la función mejorada de redireccionamiento de JavaScript"
+
+#: Models/Marketing.php:450
+msgid "You are not allowed to do this."
+msgstr "No tienes permisos para hacer esto."
+
+#: Models/Marketing.php:477
+msgid "Advanced Features"
+msgstr "Funciones Avanzadas"
+
+#: Models/Migration.php:284
+msgid "Invalid AJAX Call."
+msgstr "Llamada AJAX no válida."
+
+#: Models/Migration.php:286
+msgid "Unauthorized operation. Only authorized accounts can do data migration."
+msgstr ""
+"Operación no autorizada. Solo las cuentas autorizadas pueden realizar la migración de "
+"datos."
+
+#: Models/Migration.php:290
+msgid "Data Migration Complete!"
+msgstr "Migración completada!"
+
+#: Models/Migration.php:781
+msgid ""
+"<b>ThirstyAffiliates is currently migrating your old affiliate link data to the new "
+"data model.<br>Please hold off making changes to your affiliate links. Please refresh "
+"the page and if this message has disappeared, the migration is complete.</b>"
+msgstr ""
+"<b>ThirstyAffiliates está migrando sus datos de enlaces de afiliados antiguos al "
+"nuevo modelo de datos.<br>No haga cambios en sus enlaces de afiliados. Actualice la "
+"página y, si este mensaje ha desaparecido, la migración se habrá completado.</b>"
+
+#: Models/Rewrites_Redirection.php:382
+#, php-format
+msgid "<h1>Forbidden</h1><p>You don't have permission to access %s on this server.</p>"
+msgstr "<h1>Prohibido</h1><p> No tiene permiso para acceder a %s en este servidor.</p>"
+
+#: Models/Script_Loader.php:156
+msgid "Please provide a value for \"Custom Link Prefix\" option"
+msgstr "Proporcione un valor para la opción \"Prefijo de vínculo personalizado\""
+
+#: Models/Script_Loader.php:167
+msgid "Please input settings string"
+msgstr "Introduzca la cadena de configuración"
+
+#: Models/Script_Loader.php:168
+msgid "Settings string copied"
+msgstr "Se copió la cadena de configuración"
+
+#: Models/Script_Loader.php:169
+msgid "Failed to copy settings string"
+msgstr "No se pudo copiar la cadena de configuración"
+
+#: Models/Script_Loader.php:180
+msgid "Failed to do data migration"
+msgstr "No se pudo realizar la migración de datos"
+
+#: Models/Script_Loader.php:181
+msgid ""
+"Are you sure you want to migrate your ThirstyAffiliates data to version 3 format?"
+msgstr ""
+"¿Está seguro de que desea migrar sus datos de ThirstyAffiliates al formato de la "
+"versión 3?"
+
+#: Models/Script_Loader.php:236
+msgid "Previous"
+msgstr "Anterior"
+
+#: Models/Script_Loader.php:237
+msgid "Next"
+msgstr "Siguiente"
+
+#: Models/Script_Loader.php:238
+msgid "Close"
+msgstr "Cerrar"
+
+#: Models/Script_Loader.php:239
+msgid "Start Tour"
+msgstr "Empezar Recorrido"
+
+#: Models/Script_Loader.php:300
+msgid "affiliate link"
+msgstr "enlace de afiliado"
+
+#: Models/Script_Loader.php:301
+msgid "quick add affiliate link"
+msgstr "añadir enlace de afiliado rápidamente"
+
+#: Models/Script_Loader.php:302
+msgid "Open the ThirstyAffiliates link picker"
+msgstr "Abra el selector de enlaces ThirstyAffiliates"
+
+#: Models/Script_Loader.php:303
+msgid "Open quick add affiliate link dialog"
+msgstr "Abrir cuadro de diálogo de adición rápida de enlace de afiliado"
+
+#: Models/Script_Loader.php:304
+msgid "Type to search affiliate link"
+msgstr "Escriba para buscar el enlace de afiliado"
+
+#: Models/Settings.php:268 views/cpt/view-link-options-metabox.php:12
+#: views/cpt/view-link-options-metabox.php:24 views/cpt/view-link-options-metabox.php:36
+#: views/cpt/view-link-options-metabox.php:49
+#: views/linkpicker/quick-add-affiliate-link.php:56
+#: views/linkpicker/quick-add-affiliate-link.php:67
+msgid "Yes"
+msgstr "Sí"
+
+#: Models/Settings.php:269 views/cpt/view-link-options-metabox.php:13
+#: views/cpt/view-link-options-metabox.php:25 views/cpt/view-link-options-metabox.php:37
+#: views/cpt/view-link-options-metabox.php:50
+#: views/linkpicker/quick-add-affiliate-link.php:57
+#: views/linkpicker/quick-add-affiliate-link.php:68
+msgid "No"
+msgstr "No"
+
+#: Models/Settings.php:270
+msgid "Per category"
+msgstr "Por Categoría"
+
+#: Models/Settings.php:276 views/reports/link-performance-report.php:39
+#: views/reports/link-performance-report.php:80
+msgid "General"
+msgstr "General"
+
+#: Models/Settings.php:277
+msgid "Settings that change the general behaviour of ThirstyAffiliates."
+msgstr "Configuraciones que cambian el comportamiento general de ThirstyAffiliates."
+
+#: Models/Settings.php:280
+msgid "Link Appearance"
+msgstr "Apariencia del Enlace"
+
+#: Models/Settings.php:281
+msgid ""
+"Settings that specifically affect the behaviour & appearance of your affiliate links."
+msgstr ""
+"Configuraciones que afectan específicamente el comportamiento y la apariencia de sus "
+"enlaces de afiliados."
+
+#: Models/Settings.php:284
+msgid "Modules"
+msgstr "Módulos"
+
+#: Models/Settings.php:285
+msgid ""
+"This section allows you to turn certain parts of ThirstyAffiliates on or off. Below "
+"are the individual modules and features of the plugin that can be controlled."
+msgstr ""
+"Esta sección le permite activar o desactivar ciertas partes de ThirstyAffiliates. A "
+"continuación se muestran los módulos individuales y las características del "
+"complemento que se pueden controlar."
+
+#: Models/Settings.php:288
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: Models/Settings.php:289
+msgid ""
+"Import and Export global ThirstyAffiliates plugin settings from one site to another."
+msgstr ""
+"Importe y exporte la configuración global del complemento ThirstyAffiliates de un "
+"sitio a otro."
+
+#: Models/Settings.php:292
+msgid "Help"
+msgstr "Ayuda"
+
+#: Models/Settings.php:293
+msgid "Links to knowledge base and other utilities."
+msgstr "Vínculos a la base de conocimientos y otras utilidades."
+
+#: Models/Settings.php:302
+msgid "Default Link Insertion Type"
+msgstr "Tipo de inserción de enlace predeterminado"
+
+#: Models/Settings.php:303
+msgid "Determines the default link type when inserting a link using the quick search."
+msgstr ""
+"Determina el tipo de enlace predeterminado al insertar un enlace mediante la búsqueda "
+"rápida."
+
+#: Models/Settings.php:307
+msgid "Link"
+msgstr "Enlace"
+
+#: Models/Settings.php:308
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: Models/Settings.php:314
+msgid "Disable \"uncategorized\" category on save?"
+msgstr "¿Deshabilitar la categoría \"sin categorizar\" al guardar?"
+
+#: Models/Settings.php:315
+msgid ""
+"If links are including categories in the URL then by default ThirstyAffiliates will "
+"add an \"uncategorized\" category to apply to non-categorised links during save. If "
+"you disable this, it allows you to have some links with categories in the URL and "
+"some without."
+msgstr ""
+"Si los enlaces incluyen categorías en la URL, ThirstyAffiliates agregará de forma "
+"predeterminada una categoría \"sin categorizar\" para aplicar a los enlaces no "
+"categorizados durante el guardado. Si deshabilita esto, le permite tener algunos "
+"enlaces con categorías en la URL y otros sin."
+
+#: Models/Settings.php:321
+msgid "Disable buttons on the Visual editor?"
+msgstr "¿Deshabilitar botones en el editor visual?"
+
+#: Models/Settings.php:322
+msgid "Hide the ThirstyAffiliates buttons on the Visual editor."
+msgstr "Oculte los botones ThirstyAffiliates en el editor visual."
+
+#: Models/Settings.php:328
+msgid "Disable buttons on the Text/Quicktags editor?"
+msgstr "¿Deshabilitar botones en el editor de texto / etiquetas rápidas?"
+
+#: Models/Settings.php:329
+msgid "Hide the ThirstyAffiliates buttons on the Text editor."
+msgstr "Oculte los botones ThirstyAffiliates en el editor de texto."
+
+#: Models/Settings.php:335
+msgid "Trim stats older than:"
+msgstr "Borrar estadísticas más antiguos de:"
+
+#: Models/Settings.php:336
+msgid ""
+"months (Automatically clean the statistics database records older than a set point. "
+"Setting this to 0 will disable it)."
+msgstr ""
+"meses (Limpia automáticamente los registros de la base de datos de estadísticas más "
+"antiguos que un punto de ajuste. Si lo configura en 0, se desactivará)."
+
+#: Models/Settings.php:345
+msgid "Don't cache 301 redirects? (server side redirects)"
+msgstr ""
+"¿No almacenar en caché las redirecciones 301? (redireccionamientos del lado del "
+"servidor)"
+
+#: Models/Settings.php:346
+msgid ""
+"By default, browsers caches the 301 redirects. Enabling this option will tell the "
+"browser not to cache 301 redirects. Be aware that it is still up to the browser if it "
+"will cache it or not."
+msgstr ""
+"De forma predeterminada, los navegadores almacenan en caché las redirecciones 301. "
+"Habilitar esta opción le indicará al navegador que no almacene en caché las "
+"redirecciones 301. Tenga en cuenta que aún depende del navegador si lo almacenará en "
+"caché o no."
+
+#: Models/Settings.php:352
+msgid "Disable IP address collection"
+msgstr "Deshabilitar la recopilación de direcciones IP"
+
+#: Models/Settings.php:353
+msgid ""
+"By default ThirstyAffiliates plugin collects visitor's IP address everytime they "
+"click an affiliate link as part of the statistics information. By checking this the "
+"IP address collection will be disabled, but other information will still be saved."
+msgstr ""
+"De forma predeterminada, el complemento ThirstyAffiliates recopila la dirección IP "
+"del visitante cada vez que hacen clic en un enlace de afiliado como parte de la "
+"información estadística. Al marcar esto, la recopilación de direcciones IP se "
+"desactivará, pero se guardará otra información."
+
+#: Models/Settings.php:359
+msgid "Disable browser/device data collection"
+msgstr "Deshabilitar la recopilación de datos del navegador/dispositivo"
+
+#: Models/Settings.php:360
+msgid ""
+"As of version 3.4, by default ThirstyAffiliates plugin collects visitor's browser and "
+"device used everytime they click an affiliate link as part of the statistics "
+"information. By checking this the browser/device collection will be disabled, but "
+"other information will still be saved."
+msgstr ""
+"A partir de la versión 3.4, de forma predeterminada, el plugin ThirstyAffiliates "
+"recopila el navegador y el dispositivo de los visitantes que se utilizan cada vez que "
+"hacen clic en un enlace de afiliado como parte de la información de estadísticas. Al "
+"marcar esto, la colección del navegador/dispositivo se desactivará, pero se guardará "
+"otra información."
+
+#: Models/Settings.php:366
+msgid "Blocked bots"
+msgstr "Bots bloqueados"
+
+#: Models/Settings.php:367
+msgid ""
+"By default ThirstyAffiliates blocks bots accessing your affiliate links to give you a "
+"more appropriate data in the report. Select bots, or enter new ones to block."
+msgstr ""
+"De forma predeterminada, ThirstyAffiliates bloquea a los bots que acceden a sus "
+"enlaces de afiliados para brindarle datos más apropiados en el informe. Seleccione "
+"bots o ingrese nuevos para bloquear."
+
+#: Models/Settings.php:375
+msgid "Enable Bot Crawl Blocker Script"
+msgstr "Habilitar la secuencia de comandos del bloqueador de rastreo de bots"
+
+#: Models/Settings.php:376
+msgid ""
+"By enabling this setting, your affiliate links won't redirect for all the <em>blocked "
+"bots</em> set above and will send out a 403 forbidden error."
+msgstr ""
+"Al habilitar esta configuración, sus enlaces de afiliados no redirigirán a todos los "
+"<em>bots bloqueados</em> establecidos anteriormente y enviarán un error prohibido 403."
+
+#: Models/Settings.php:385
+msgid "Link Prefix"
+msgstr "Prefijo del Enlace"
+
+#: Models/Settings.php:386
+#, php-format
+msgid ""
+"The prefix that comes before your cloaked link's slug. <br>eg. %s/<strong>recommends</"
+"strong>/your-affiliate-link-name.<br><br><b>Warning :</b> Changing this setting after "
+"you've used links in a post could break those links. Be careful!"
+msgstr ""
+"El prefijo que viene antes del slug de su enlace encubierto.<br>p.ej. %s/"
+"<strong>recomienda</strong>/su-nombre-del-enlace-afiliado.<br><br><b>Advertencia:</"
+"b>Cambiar esta configuración después de haber usado enlaces en una publicación podría "
+"romper esos enlaces. ¡Ten cuidado!"
+
+#: Models/Settings.php:414
+msgid "Custom Link Prefix"
+msgstr "Prefijo de Enlace Personalizado"
+
+#: Models/Settings.php:415
+msgid "Enter your preferred link prefix."
+msgstr "Ingrese su prefijo de enlace preferido."
+
+#: Models/Settings.php:421
+msgid "Link Category in URL?"
+msgstr "¿Categoría de Enlace en URL?"
+
+#: Models/Settings.php:422
+#, php-format
+msgid ""
+"Shows the primary selected category in the url. eg. %s/recommends/<strong>link-"
+"category</strong>/your-affiliate-link-name.<br><br><b>Warning :</b> Changing this "
+"setting after you've used links in a post could break those links. Be careful!"
+msgstr ""
+"Muestra la categoría principal seleccionada en la URL. p.ej. %s/recomienda/ "
+"<strong>categoría-de-enlace</strong>/nombre-del-enlace-de-su-afiliado."
+"<br><br><b>Advertencia:</b> Cambiar esta configuración después de haber usado enlaces "
+"en una publicación podría romper esos enlaces. ¡Ten cuidado!"
+
+#: Models/Settings.php:428
+msgid "Enable Enhanced Javascript Redirect on Frontend"
+msgstr "Habilitar el redireccionamiento mejorado de Javascript en la interfaz"
+
+#: Models/Settings.php:429
+msgid ""
+"By default affiliate links are redirected on the server side. Enabling this will set "
+"all affiliate links to be redirected via javascript on your website's frontend. This "
+"will then improve the accuracy of the link performance report (This will only work "
+"when <strong>Statistics</strong> module is enabled)."
+msgstr ""
+"Por defecto, los enlaces de afiliados se redirigen en el lado del servidor. Habilitar "
+"esto configurará todos los enlaces de afiliados para que sean redirigidos a través de "
+"javascript en la interfaz de su sitio web. Esto luego mejorará la precisión del "
+"informe de rendimiento del enlace (esto solo funcionará cuando el "
+"<strong>Estadísticas</strong> módulo esté habilitado)."
+
+#: Models/Settings.php:436
+msgid "Link Redirect Type (server side redirects)"
+msgstr ""
+"Tipo de Redireccionamiento de Enlace (redireccionamientos del lado del servidor)"
+
+#: Models/Settings.php:437
+msgid ""
+"This is the type of redirect ThirstyAffiliates will use to redirect the user to your "
+"affiliate link."
+msgstr ""
+"Este es el tipo de redireccionamiento que ThirstyAffiliates utilizará para redirigir "
+"al usuario a su enlace de afiliado."
+
+#: Models/Settings.php:445
+msgid "Use no follow on links? (server side redirects)"
+msgstr ""
+"¿No utilizar enlaces de seguimiento? (redireccionamientos del lado del servidor)"
+
+#: Models/Settings.php:446
+msgid "Add the nofollow attribute to links so search engines don't index them."
+msgstr ""
+"Agregue el atributo nofollow a los enlaces para que los motores de búsqueda no los "
+"indexen."
+
+#: Models/Settings.php:455
+msgid "No follow categories (server side redirects)"
+msgstr "Categorías de no seguimiento (redireccionamientos del lado del servidor)"
+
+#: Models/Settings.php:456
+msgid "The links assigned to the selected category will be set as \"no follow\"."
+msgstr ""
+"Los enlaces asignados a la categoría seleccionada se establecerán como \"no seguir\"."
+
+#: Models/Settings.php:460 Models/Settings.php:482 Models/Settings.php:504
+#: Models/Settings.php:545
+msgid "Select category..."
+msgstr "Selecciona una categoría..."
+
+#: Models/Settings.php:467
+msgid "Open links in new window?"
+msgstr "¿Abrir enlaces en una ventana nueva?"
+
+#: Models/Settings.php:468
+msgid "Make links open in a new browser tab by default."
+msgstr ""
+"Hacer que los enlaces se abran en una nueva pestaña del navegador de forma "
+"predeterminada."
+
+#: Models/Settings.php:477
+msgid "New window categories"
+msgstr "Nuevas categorías de ventana"
+
+#: Models/Settings.php:478
+msgid "The links assigned to the selected category will be set as \"new window\"."
+msgstr ""
+"Los enlaces asignados a la categoría seleccionada se establecerán como \"nueva ventana"
+"\"."
+
+#: Models/Settings.php:489
+msgid "Pass query strings to destination url?"
+msgstr "¿Pasar cadenas de consulta a la URL de destino?"
+
+#: Models/Settings.php:490
+msgid ""
+"Enabling this option will pass all of the query strings present after the cloaked url "
+"to the destination url automatically when redirecting."
+msgstr ""
+"Habilitar esta opción pasará todas las cadenas de consulta presentes después de la "
+"URL oculta a la URL de destino automáticamente al redireccionar."
+
+#: Models/Settings.php:499
+msgid "Pass query strings categories"
+msgstr "Pasar categorías de cadenas de consulta"
+
+#: Models/Settings.php:500
+msgid ""
+"The links assigned to the selected category will be set as \"pass query strings\"."
+msgstr ""
+"Los enlaces asignados a la categoría seleccionada se establecerán como \"cadenas de "
+"consulta de paso\"."
+
+#: Models/Settings.php:511
+msgid "Additional rel attribute tags"
+msgstr "Etiquetas de atributo rel adicionales"
+
+#: Models/Settings.php:512
+msgid "Allows you to add extra tags into the rel= attribute when links are inserted."
+msgstr ""
+"Le permite agregar etiquetas adicionales en el atributo rel= cuando se insertan "
+"enlaces."
+
+#: Models/Settings.php:518
+msgid "Additional CSS classes"
+msgstr "Clases de CSS Adicionales"
+
+#: Models/Settings.php:519
+msgid "Allows you to add extra CSS classes when links are inserted."
+msgstr "Le permite agregar clases CSS adicionales cuando se insertan enlaces."
+
+#: Models/Settings.php:525
+msgid "Disable ThirstyAffiliates CSS classes?"
+msgstr "¿Deshabilitar las clases CSS de ThirstyAffiliates?"
+
+#: Models/Settings.php:526
+msgid ""
+"To help with styling a CSS class called \"thirstylink\" is added links on insertion."
+"<br>Likewise the \"thirstylinkimg\" class is added to images when using the image "
+"insertion type. This option disables the addition these CSS classes."
+msgstr ""
+"Para ayudar con el estilo de una clase CSS llamada \"thirstylink\" se agregan enlaces "
+"en la inserción.<br> Asimismo, la clase \"thirstylinkimg\" se agrega a las imágenes "
+"cuando se usa el tipo de inserción de imágenes. Esta opción deshabilita la adición de "
+"estas clases CSS."
+
+#: Models/Settings.php:532
+msgid "Disable title attribute on link insertion?"
+msgstr "¿Deshabilitar el atributo de título al insertar un enlace?"
+
+#: Models/Settings.php:533
+msgid ""
+"Links are automatically output with a title html attribute (by default this shows the "
+"title of the affiliate link).<br>This option disables the output of the title "
+"attribute on your links."
+msgstr ""
+"Los enlaces se generan automáticamente con un atributo de título html (de forma "
+"predeterminada, esto muestra el título del enlace de afiliado).<br> Esta opción "
+"desactiva la salida del atributo de título en sus enlaces."
+
+#: Models/Settings.php:539
+msgid "Select Category to Uncloak"
+msgstr "Seleccionar Categoría para Desbloquear"
+
+#: Models/Settings.php:540
+msgid "The links assigned to the selected category will be uncloaked."
+msgstr "Los enlaces asignados a la categoría seleccionada se desbloquearán."
+
+#: Models/Settings.php:554
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: Models/Settings.php:555
+msgid ""
+"When enabled, ThirstyAffiliates will collect click statistics information about "
+"visitors that click on your affiliate links. Also adds a new Reports section."
+msgstr ""
+"Cuando está habilitado, ThirstyAffiliates recopilará información de estadísticas de "
+"clics sobre los visitantes que hacen clic en sus enlaces de afiliados. También agrega "
+"una nueva sección de Informes."
+
+#: Models/Settings.php:562
+msgid "Link Fixer"
+msgstr "Fijador de Enlaces"
+
+#: Models/Settings.php:563
+msgid ""
+"Link Fixer is a tiny piece of javascript code that runs on the frontend of your site "
+"to fix any outdated/broken affiliate links it detects. It's cache-friendly and runs "
+"after page load so it doesn't affect the rendering of content. Changed the settings "
+"on your site recently? Enabling Link Fixer means you don't need to update all your "
+"previously inserted affiliate links one by one – your visitors will never see an out "
+"of date affiliate link again."
+msgstr ""
+"Fijador de Enlaces es un pequeño fragmento de código javascript que se ejecuta en la "
+"interfaz de su sitio para reparar los enlaces de afiliados obsoletos o rotos que "
+"detecta. Es compatible con la memoria caché y se ejecuta después de la carga de la "
+"página, por lo que no afecta la representación del contenido. ¿Cambió la "
+"configuración de su sitio recientemente? Habilitar el Fijador de Enlaces significa "
+"que no necesita actualizar todos los enlaces de afiliados insertados anteriormente "
+"uno por uno; sus visitantes nunca volverán a ver un enlace de afiliado desactualizado."
+
+#: Models/Settings.php:570
+msgid "Uncloak Links"
+msgstr "Desenmascarar Enlaces"
+
+#: Models/Settings.php:571
+msgid ""
+"Uncloak Links is a feature to allow uncloaking of specific links on your site. It "
+"replaces the cloaked url with the actual destination url which is important for "
+"compatibility with some affiliate program with stricter terms (such as Amazon "
+"Associates). Once enabled, you will see a new Uncloak Link checkbox on the affiliate "
+"link edit screen. It also introduces a new setting under the Links tab for uncloaking "
+"whole categories.<br><br><b>Warning : </b>For this feature to work, the <strong>Link "
+"Fixer</strong> module needs to be turned on."
+msgstr ""
+"Desenmascarar Enlaces es una función que permite descubrir enlaces específicos en su "
+"sitio. Reemplaza la URL oculta con la URL de destino real, lo cual es importante para "
+"la compatibilidad con algunos programas de afiliados con términos más estrictos (como "
+"Amazon Associates). Una vez habilitado, verá una nueva casilla de verificación para "
+"Desenmascarar Enlaces en la pantalla de edición del enlace de afiliado. También "
+"introduce una nueva configuración en la pestaña Vínculos para desbloquear categorías "
+"completas.<br><br><b>Advertencia: </b>Para que esta función funcione, el módulo "
+"<strong>Fijador de Enlaces</strong> debe estar encendido."
+
+#: Models/Settings.php:581
+msgid "Import Global Settings"
+msgstr "Importar Ajustes Global"
+
+#: Models/Settings.php:583
+msgid "Paste settings string here..."
+msgstr "Pegue la cadena de configuración aquí ..."
+
+#: Models/Settings.php:588
+msgid "Export Global Settings"
+msgstr "Exportar Ajustes Global"
+
+#: Models/Settings.php:597 Models/Settings.php:605
+msgid "Knowledge Base"
+msgstr "Base de Conocimientos"
+
+#: Models/Settings.php:602
+msgid "Documentation"
+msgstr "Documentación"
+
+#: Models/Settings.php:606
+msgid "Guides, troubleshooting, FAQ and more."
+msgstr "Guías, solución de problemas, preguntas frecuentes y mucho más."
+
+#: Models/Settings.php:611
+msgid "Our Blog"
+msgstr "Nuestro Blog"
+
+#: Models/Settings.php:614
+msgid "ThirstyAffiliates Blog"
+msgstr "ThirstyAffiliates Blog"
+
+#: Models/Settings.php:615
+msgid ""
+"Learn & grow your affiliate marketing – covering increasing sales, generating "
+"traffic, optimising your affiliate marketing, interviews & case studies."
+msgstr ""
+"Aprenda y haga crecer su marketing de afiliación, que cubre el aumento de ventas, la "
+"generación de tráfico, la optimización de su marketing de afiliación, entrevistas y "
+"estudios de casos."
+
+#: Models/Settings.php:620
+msgid "Join the Community"
+msgstr "Únete a la Comunidad"
+
+#: Models/Settings.php:627
+msgid "Other Utilities"
+msgstr "Otras Utilidades"
+
+#: Models/Settings.php:632
+msgid "Migrate Old Data"
+msgstr "Migrar Datos Antiguos"
+
+#: Models/Settings.php:634
+msgid "Migrate old ThirstyAffiliates version 2 data to new version 3 data model."
+msgstr ""
+"Migre los datos antiguos de la versión 2 de ThirstyAffiliates al nuevo modelo de "
+"datos de la versión 3."
+
+#: Models/Settings.php:762 Models/Settings.php:783
+msgid "ThirstyAffiliates Settings"
+msgstr "Ajustes de ThirstyAffiliates"
+
+#: Models/Settings.php:800
+msgid "Pro Features →"
+msgstr "Características Pro →"
+
+#: Models/Settings.php:926
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: Models/Settings.php:1435
+msgid "Key"
+msgstr "Clave"
+
+#: Models/Settings.php:1436
+msgid "Value"
+msgstr "Valor"
+
+#: Models/Settings.php:1559
+msgid ""
+"Another application is currently processing the database. Please wait for this to "
+"complete."
+msgstr ""
+"Actualmente, otra aplicación está procesando la base de datos. Espere a que se "
+"complete esto."
+
+#: Models/Settings.php:1569
+msgid "Migrate"
+msgstr "Migrar"
+
+#: Models/Settings.php:1572
+msgid "Migrating data. Please wait..."
+msgstr "Migrando datos. Espere por favor..."
+
+#: Models/Settings.php:1603
+msgid "Like us on Facebook"
+msgstr "Danos like en Facebook"
+
+#: Models/Settings.php:1607
+msgid "Follow us on Twitter"
+msgstr "Encuéntrenos en Twitter"
+
+#: Models/Settings.php:1611
+msgid "Follow us on Linkedin"
+msgstr "Síguenos en Linkedin"
+
+#: Models/Settings.php:1614
+msgid "Join Our Affiliate Program"
+msgstr "Únete a nuestro Programa de Afiliados"
+
+#: Models/Settings.php:1615
+#, php-format
+msgid "(up to 30% commisions)"
+msgstr "(hasta 30% comisiones)"
+
+#: Models/Settings.php:1648
+msgid "Copy"
+msgstr "Copiar"
+
+#: Models/Settings.php:1685
+msgid "Import Settings"
+msgstr "Ajustes de Importación"
+
+#: Models/Settings.php:1900
+msgid ""
+"Unauthorized operation. Only authorized accounts can access global plugin settings "
+"string"
+msgstr ""
+"Operación no autorizada. Solo las cuentas autorizadas pueden acceder a la cadena de "
+"configuración global del plugin"
+
+#: Models/Settings.php:1929
+msgid "Settings successfully imported"
+msgstr "Los ajustes se importaron correctamente"
+
+#: Models/Settings.php:1951
+msgid "Unauthorized operation. Only authorized accounts can import settings"
+msgstr "Operación no autorizada. Solo las cuentas autorizadas pueden importar ajustes"
+
+#: Models/Settings.php:1956
+msgid "Invalid global settings string"
+msgstr "Cadena de configuración global no válida"
+
+#: Models/Shortcodes.php:264
+msgid ""
+"SHORTCODE ERROR: ThirstyAffiliates did not detect a valid link id, please check your "
+"short code!"
+msgstr ""
+"ERROR DE SHORTCODE: ThirstyAffiliates no detectó un ID de enlace válido, por favor "
+"verifique su shortcode!"
+
+#: Models/Stats_Reporting.php:418
+msgid "Selected affiliate link is invalid"
+msgstr "El enlace de afiliado seleccionado no es válido"
+
+#: Models/Stats_Reporting.php:543
+msgid "Link Overview"
+msgstr "Resumen de Enlace"
+
+#: Models/Stats_Reporting.php:544
+msgid "Link Overview Report"
+msgstr "Informe de Resumen de Enlaces"
+
+#: Models/Stats_Reporting.php:545
+msgid "Total clicks on affiliate links over a given period."
+msgstr "Clics totales en enlaces de afiliados durante un período determinado."
+
+#: Models/Stats_Reporting.php:575
+msgid "ThirstyAffiliates Reports"
+msgstr "Informes de ThirstyAffiliates"
+
+#: Models/Stats_Reporting.php:576
+msgid "Reports"
+msgstr "Informes"
+
+#: Models/Stats_Reporting.php:655
+msgid "Year"
+msgstr "Año"
+
+#: Models/Stats_Reporting.php:656
+msgid "Last Month"
+msgstr "Último Mes"
+
+#: Models/Stats_Reporting.php:657
+msgid "This Month"
+msgstr "Este Mes"
+
+#: Models/Stats_Reporting.php:658
+msgid "Last 7 Days"
+msgstr "Últimos 7 Días"
+
+#: thirstyaffiliates.php:223
+msgid "Activate this plugin"
+msgstr "Activar este plugin"
+
+#: thirstyaffiliates.php:223
+msgid "Click here to activate &rarr;"
+msgstr "Haga clic aquí para activar &rarr;"
+
+#: thirstyaffiliates.php:225
+msgid "Install this plugin"
+msgstr "Instala este plugin"
+
+#: thirstyaffiliates.php:225
+msgid "Click here to install from WordPress.org repo &rarr;"
+msgstr "Haga clic aquí para instalar desde el Repositorio de WordPress.org &rarr;"
+
+#: thirstyaffiliates.php:227
+#, php-format
+msgid ""
+"<br/>Please ensure you have the <a href=\"%1$s\" target=\"_blank\">%2$s</a> plugin "
+"installed and activated.<br/>"
+msgstr ""
+"<br/>Por favor, asegúrese de tener el plugin <a href=\"%1$s\" target=\"_blank\">%2$s</"
+"a> instalado y activado<br/>"
+
+#: thirstyaffiliates.php:234
+msgid "<b>ThirstyAffiliates</b> plugin missing dependency.<br/>"
+msgstr "Falta dependencia del plugin <b>ThirstyAffiliates.</b><br/>"
+
+#: views/cpt/view-attach-images-metabox-external-image.php:4
+#: views/cpt/view-attach-images-metabox-single-image.php:4
+msgid "Remove This Image"
+msgstr "Eliminar Esta Imagen"
+
+#: views/cpt/view-attach-images-metabox-external-image.php:5
+msgid "external image"
+msgstr "imagen externa"
+
+#: views/cpt/view-attach-images-metabox.php:11
+msgid "Add Image To Affiliate Link"
+msgstr "Agregar imagen al Enlace de Afiliado"
+
+#: views/cpt/view-attach-images-metabox.php:12
+msgid "Add To Affiliate Link"
+msgstr "Agregar al Enlace de Afiliado"
+
+#: views/cpt/view-attach-images-metabox.php:13
+#: views/cpt/view-attach-images-metabox.php:20
+msgid "Upload/Insert"
+msgstr "Cargar/Insertar"
+
+#: views/cpt/view-attach-images-metabox.php:28
+msgid "or"
+msgstr "o"
+
+#: views/cpt/view-attach-images-metabox.php:31
+msgid "Add external image"
+msgstr "Agregar imagen externa"
+
+#: views/cpt/view-attach-images-metabox.php:33
+msgid "Image source here"
+msgstr "Fuente de la imagen aquí"
+
+#: views/cpt/view-attach-images-metabox.php:34
+msgid "Add image"
+msgstr "Añadir imagen"
+
+#: views/cpt/view-attach-images-metabox.php:35
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: views/cpt/view-inserted-link-scanner-metabox.php:4
+msgid "Start Scan"
+msgstr "Empezar a Rastrear"
+
+#: views/cpt/view-inserted-link-scanner-metabox.php:12
+msgid "ID"
+msgstr "ID"
+
+#: views/cpt/view-inserted-link-scanner-metabox.php:13
+msgid "Title"
+msgstr "Título"
+
+#: views/cpt/view-inserted-link-scanner-metabox.php:14
+msgid "Post Type"
+msgstr "Tipo de Publicación"
+
+#: views/cpt/view-link-options-metabox.php:7
+msgid "No follow this link? (server side redirects)"
+msgstr "¿No sigues este enlace? (redireccionamientos del lado del servidor)"
+
+#: views/cpt/view-link-options-metabox.php:8
+msgid "Adds the rel=\"nofollow\" tag so search engines don't pass link juice."
+msgstr ""
+"Agrega la etiqueta rel= \"nofollow\" (no sigues) para que los motores de búsqueda no "
+"pasen link juice."
+
+#: views/cpt/view-link-options-metabox.php:11 views/cpt/view-link-options-metabox.php:23
+#: views/cpt/view-link-options-metabox.php:35 views/cpt/view-link-options-metabox.php:48
+#: views/cpt/view-link-options-metabox.php:62
+#: views/linkpicker/quick-add-affiliate-link.php:40
+#: views/linkpicker/quick-add-affiliate-link.php:55
+#: views/linkpicker/quick-add-affiliate-link.php:66
+#, php-format
+msgid "Global (%s)"
+msgstr "Global (%s)"
+
+#: views/cpt/view-link-options-metabox.php:19
+#: views/linkpicker/quick-add-affiliate-link.php:63
+msgid "Open this link in new window?"
+msgstr "¿Abrir este enlace en ventana nueva?"
+
+#: views/cpt/view-link-options-metabox.php:20
+msgid "Opens links in a new window when clicked on."
+msgstr "Abre enlaces en una nueva ventana cuando se hace clic en ellos."
+
+#: views/cpt/view-link-options-metabox.php:31
+msgid "Pass query string to destination url?"
+msgstr "¿Pasar la cadena de consulta a la URL de destino?"
+
+#: views/cpt/view-link-options-metabox.php:32
+msgid ""
+"Passes the query strings present after the cloaked url automatically to the "
+"destination url when redirecting."
+msgstr ""
+"Pasa las cadenas de consulta presentes después de la URL oculta automáticamente a la "
+"URL de destino al redireccionar."
+
+#: views/cpt/view-link-options-metabox.php:44
+msgid "Uncloak link?"
+msgstr "¿Desenmascar el enlace?"
+
+#: views/cpt/view-link-options-metabox.php:45
+msgid "Uncloaks the link when loaded on the frontend."
+msgstr "Desenmascara el enlace cuando se carga en la interfaz."
+
+#: views/cpt/view-link-options-metabox.php:57
+msgid "Redirect type (server side redirects):"
+msgstr ""
+"Tipo de Redireccionamiento de Enlace (redireccionamientos del lado del servidor):"
+
+#: views/cpt/view-link-options-metabox.php:58
+msgid "Override the default redirection type for this link."
+msgstr "Anule el tipo de redirección predeterminado para este enlace."
+
+#: views/cpt/view-link-options-metabox.php:74
+msgid "Additional rel tags:"
+msgstr "Etiquetas rel adicionales:"
+
+#: views/cpt/view-link-options-metabox.php:81
+msgid "Additional CSS classes:"
+msgstr "Clases de CSS Adicionales:"
+
+#: views/cpt/view-save-affiliate-link-metabox.php:4 views/cpt/view-urls-metabox.php:25
+msgid "Save"
+msgstr "Guardar"
+
+#: views/cpt/view-save-affiliate-link-metabox.php:5
+msgid "Save Link"
+msgstr "Guardar esta Enlace"
+
+#: views/cpt/view-save-affiliate-link-metabox.php:10
+msgid "Delete Permanently"
+msgstr "Borrar Permanentemente"
+
+#: views/cpt/view-save-affiliate-link-metabox.php:12
+msgid "Move to Trash"
+msgstr "Mover a la Basura"
+
+#: views/cpt/view-urls-metabox.php:7 views/linkpicker/quick-add-affiliate-link.php:26
+msgid "Destination URL:"
+msgstr "URL de Destino:"
+
+#: views/cpt/view-urls-metabox.php:15
+msgid "Cloaked URL:"
+msgstr "URL Encubierta:"
+
+#: views/cpt/view-urls-metabox.php:19
+msgid "Edit slug"
+msgstr "Editar la slug"
+
+#: views/cpt/view-urls-metabox.php:20
+msgid "Visit Link"
+msgstr "Visitar Enlace"
+
+#: views/cpt/view-urls-metabox.php:24
+msgid ""
+"<strong>Warning:</strong> Editing the slug will break already inserted links for this "
+"affiliate link."
+msgstr ""
+"<strong>Advertencia:</strong> Editando el slug romperá los enlaces ya insertados para "
+"este enlace de afiliado."
+
+#: views/cpt/view-urls-metabox.php:33
+msgid "Category to show in slug:"
+msgstr "Categoría para mostrar en slug:"
+
+#: views/cpt/view-urls-metabox.php:37
+msgid "Default"
+msgstr "Por Defecto"
+
+#: views/linkpicker/advance-link-picker.php:17
+msgid "Search:"
+msgstr "Buscar:"
+
+#: views/linkpicker/advance-link-picker.php:18
+msgid "Please enter 3 or more characters..."
+msgstr "Por favor, introduce 3 o más caracteres..."
+
+#: views/linkpicker/advance-link-picker.php:22
+msgid "Select category"
+msgstr "Seleccionar categoría"
+
+#: views/linkpicker/advance-link-picker.php:35
+msgid "Fetching..."
+msgstr "Buscando…"
+
+#: views/linkpicker/advance-link-picker.php:36
+msgid "Load more"
+msgstr "Cargar más"
+
+#: views/linkpicker/advance-link-picker.php:45
+msgid "Searching..."
+msgstr "Buscando..."
+
+#: views/linkpicker/edit-shortcode.php:21
+msgid "Link text:"
+msgstr "Texto del Enlace:"
+
+#: views/linkpicker/edit-shortcode.php:28
+msgid "Affiliate link ids:"
+msgstr "IDs de los enlaces de afiliados:"
+
+#: views/linkpicker/edit-shortcode.php:35
+msgid "Class link attribute:"
+msgstr "Atributo de enlace de clase:"
+
+#: views/linkpicker/edit-shortcode.php:42
+msgid "Link title attribute:"
+msgstr "Atributo de título de enlace:"
+
+#: views/linkpicker/edit-shortcode.php:49
+msgid "Link rel attribute:"
+msgstr "Enlace rel atributo:"
+
+#: views/linkpicker/edit-shortcode.php:56
+msgid "link target attribute:"
+msgstr "atributo de destino de enlace:"
+
+#: views/linkpicker/edit-shortcode.php:64
+msgid "Edit Shortcode"
+msgstr "Editar Shortcode"
+
+#: views/linkpicker/quick-add-affiliate-link.php:19
+msgid "Link Name:"
+msgstr "Nombre del Enlace:"
+
+#: views/linkpicker/quick-add-affiliate-link.php:29
+msgid "http:// or https:// is required"
+msgstr "http:// o https:// es obligatorio"
+
+#: views/linkpicker/quick-add-affiliate-link.php:36
+msgid "Redirect Type:"
+msgstr "Tipo de Redireccionamiento:"
+
+#: views/linkpicker/quick-add-affiliate-link.php:52
+msgid "No follow this link?"
+msgstr "¿No sigues este enlace?"
+
+#: views/linkpicker/quick-add-affiliate-link.php:76
+msgid "Select categories..."
+msgstr "Seleccionar categorías..."
+
+#: views/linkpicker/quick-add-affiliate-link.php:88
+msgid "Add Link"
+msgstr "Agregar Enlace"
+
+#: views/linkpicker/quick-add-affiliate-link.php:91
+msgid "Add Link & Insert Into Post"
+msgstr "Agregar Enlace e Insertar en la Publicación"
+
+#: views/reports/link-performance-report.php:15
+msgid "Custom"
+msgstr "Personalizado"
+
+#: views/reports/link-performance-report.php:23
+msgid "Go"
+msgstr "Ir"
+
+#: views/reports/link-performance-report.php:41
+#: views/reports/link-performance-report.php:81
+msgid "All links"
+msgstr "Todos los Enlaces"
+
+#: views/reports/link-performance-report.php:48
+msgid "Fetch report for specific link:"
+msgstr "Obtener informe para un enlace específico:"
+
+#: views/reports/link-performance-report.php:50
+msgid "Search affiliate link"
+msgstr "Buscar enlace de afiliado"
+
+#: views/reports/link-performance-report.php:62
+msgid "Fetch Report"
+msgstr "Obtener Informe"
+
+#: views/reports/link-performance-report.php:84
+msgid "Clicks: "
+msgstr "Clics: "

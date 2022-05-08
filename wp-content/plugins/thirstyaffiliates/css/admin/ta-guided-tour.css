@@ -1,0 +1,11 @@
+.ta-tour-buttons {
+    display: block;
+    text-align: right;
+}
+.ta-tour-buttons > .button {
+    margin-left: 10px;
+}
+.wp-pointer ul {
+    padding: 0 15px 0 40px;
+    list-style: disc;
+}

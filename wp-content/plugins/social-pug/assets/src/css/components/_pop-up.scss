@@ -1,0 +1,126 @@
+/*****************************************/
+/* Pop-Up Buttons
+/*****************************************/
+#dpsp-pop-up {
+  position: fixed;
+  width: 100%;
+  max-width: 750px;
+  padding: 40px;
+  border-radius: 10px;
+  opacity: 0;
+  background: #fff;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  transform: translate(-50%,-50%);
+  z-index: 9999;
+}
+#dpsp-pop-up.dpsp-animation-1 {
+  transform: translate(-50%,-50%) scale(0.1);
+}
+#dpsp-pop-up.dpsp-animation-3 {
+  transform: translate(-50%,0%);
+}
+#dpsp-pop-up.dpsp-animation-4 {
+  transform: translate(-50%,-100%);
+}
+
+#dpsp-pop-up.no-animation,
+#dpsp-pop-up-overlay.no-animation {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+#dpsp-pop-up.opened {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  transform: scale(1) translate(-50%,-50%);
+}
+
+#dpsp-pop-up-overlay {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  background: #000;
+  -webkit-transition: opacity 0.25s ease-in-out, margin 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out, margin 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out, margin 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out, margin 0.25s ease-in-out;
+  z-index: 9998;
+}
+#dpsp-pop-up-overlay.opened {
+  width: 100%;
+  height: 100%;
+  opacity: 0.65;
+}
+
+#dpsp-pop-up-content {
+  text-align: center;
+}
+
+#dpsp-pop-up-close {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#dpsp-pop-up-close svg {
+  position: relative;
+  top: 2px;
+  width: auto;
+  max-height: 16px;
+  vertical-align: top;
+
+  fill: #999;
+}
+
+#dpsp-pop-up h2 {
+  margin-bottom: 1em;
+}
+#dpsp-pop-up h2 p {
+  font-size: inherit;
+}
+#dpsp-pop-up h2 p:last-of-type {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#dpsp-pop-up p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#dpsp-post-bottom {
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and ( max-width : 800px ) {
+  #dpsp-pop-up {
+    width: 90%;
+  }
+}
+
+@media screen and ( max-width : 720px ) {
+  #dpsp-pop-up .dpsp-networks-btns-wrapper li {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

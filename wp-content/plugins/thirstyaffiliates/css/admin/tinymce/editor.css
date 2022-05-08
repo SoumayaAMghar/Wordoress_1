@@ -1,0 +1,9 @@
+span.ta-editor-shortcode {
+    border-bottom: 1px dashed #3faa67;
+    cursor: pointer;
+}
+span.ta-editor-shortcode.shortcode-selected {
+    background: #e5f5ed;
+    box-shadow: 0 0 2px 3px #e5f5ed;
+    border-radius: 5px
+}

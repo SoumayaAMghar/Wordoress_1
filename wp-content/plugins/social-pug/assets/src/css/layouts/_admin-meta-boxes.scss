@@ -1,0 +1,26 @@
+.dpsp-admin-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 2px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  & svg {
+    max-width: 14px;
+    max-height: 14px;
+    margin: 5px;
+
+    fill: white;
+  }
+  &-share {
+    background: #34495e;
+  }
+  &-twitter {
+    background: #00abf0;
+  }
+  &-pinterest {
+    background: #c92228;
+  }
+}

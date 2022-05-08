@@ -1,0 +1,25 @@
+/*****************************************/
+/* Widget: Follow Buttons
+/*****************************************/
+.dpsp-shortcode-follow-wrapper {
+  & > .dpsp-networks-btns-follow-widget {
+    display: flex;
+
+    flex-flow: row wrap;
+  }
+  &.dpsp-follow-align-left {
+    & > .dpsp-networks-btns-follow-widget {
+      justify-content: flex-start;
+    }
+  }
+  &.dpsp-follow-align-center {
+    & > .dpsp-networks-btns-follow-widget {
+      justify-content: center;
+    }
+  }
+  &.dpsp-follow-align-right {
+    & > .dpsp-networks-btns-follow-widget {
+      justify-content: flex-end;
+    }
+  }
+}

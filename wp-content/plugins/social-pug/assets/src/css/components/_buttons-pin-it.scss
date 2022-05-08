@@ -1,0 +1,147 @@
+/*
+ * Pinterest Pin it button style
+ */
+.dpsp-pin-it-wrapper {
+  display: inline-table;
+  position: relative !important;
+  line-height: 0;
+}
+
+.blocks-gallery-item .dpsp-pin-it-wrapper {
+  display: inline-block;
+}
+
+.dpsp-pin-it-wrapper.aligncenter,
+.dpsp-pin-it-wrapper.alignleft,
+.dpsp-pin-it-wrapper.alignright {
+  display: table !important;
+}
+
+.dpsp-pin-it-wrapper:hover .dpsp-pin-it-button {
+  visibility: visible;
+  color: #fff !important;
+  background-color: #c92228 !important;
+}
+
+/* Fix for images that */
+.dpsp-pin-it-wrapper.aligncenter {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Fix for Gutenberg cropped images */
+.wp-block-gallery.is-cropped .blocks-gallery-item .dpsp-pin-it-wrapper {
+  height: 100%;
+
+  flex: 1;
+  object-fit: cover;
+}
+
+.dpsp-pin-it-button {
+  display: inline-block;
+  position: absolute;
+  visibility: hidden;
+  width: auto !important;
+  height: 40px !important;
+  border: 0 !important;
+  color: transparent !important;
+  background: transparent;
+  background-image: none !important;
+  box-shadow: none !important;
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  vertical-align: middle;
+  text-decoration: none !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.dpsp-pin-it-button:hover {
+  color: #fff;
+  background: #b31e24;
+  box-shadow: none !important;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-has-label {
+  padding-right: 20px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-has-label:after {
+  display: inline-block;
+  content: attr(title);
+}
+
+.dpsp-pin-it-button .dpsp-network-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.dpsp-pin-it-button .dpsp-network-icon svg {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+
+  fill: #fff;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-bottom-right {
+  right: 10px;
+  bottom: 10px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-center {
+  top: 50%;
+  left: 50%;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-shape-rectangular {
+  border-radius: 0;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-shape-rounded {
+  border-radius: 4px;
+}
+
+.dpsp-pin-it-button.dpsp-pin-it-button-shape-circle {
+  border-radius: 40px;
+}
+
+.dpsp-pin-it-wrapper .dpsp-pin-it-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background: #fff;
+  transition: all 0.25s ease-in-out;
+  pointer-events: none;
+}
+
+.dpsp-pin-it-wrapper:hover .dpsp-pin-it-overlay {
+  visibility: visible;
+  opacity: 0.4;
+}

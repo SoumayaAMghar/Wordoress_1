@@ -1,0 +1,28 @@
+{
+  "name": "affiliate_link_page",
+  "version": "1.0.0",
+  "description": "Affiliate Link Page JS",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint dist"
+  },
+  "author": "Rymera Web",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^0.28.1",
+    "eslint": "^3.19.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.5",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "npm": "^6.3.0"
+  }
+}
