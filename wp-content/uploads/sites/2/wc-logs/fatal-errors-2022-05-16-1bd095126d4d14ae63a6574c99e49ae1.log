@@ -1,0 +1,80 @@
+2022-05-16T14:52:09+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "feedback_form_capture" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\header.php(12): wp_head()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\page.php(13): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
+2022-05-16T14:52:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "feedback_form_capture" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\header.php(12): wp_head()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\page.php(13): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
+2022-05-16T14:53:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "feedback_form_capture" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\header.php(12): wp_head()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\page.php(13): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
+2022-05-16T14:53:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "feedback_form_capture" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\header.php(12): wp_head()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\page.php(13): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
+2022-05-16T14:53:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "feedback_form_capture" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3042): do_action('wp_head')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\header.php(12): wp_head()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\woostify\page.php(13): get_header()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
